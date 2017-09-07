@@ -1,0 +1,1060 @@
+@prefix : <http://ontologies.semanticarts.com/o/gistgeodata-US-1#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix gnr: <http://sws.geonames.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix gist: <http://ontologies.semanticarts.com/gist#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix gistgeo: <http://ontologies.semanticarts.com/gistGeo#> .
+@prefix gistgeo3: <http://triples.semanticarts.com/gistGeo#> .
+@base <http://ontologies.semanticarts.com/o/gistgeodata-US-1> .
+
+<http://ontologies.semanticarts.com/o/gistgeodata-US-1> rdf:type owl:Ontology ;
+                                                         owl:versionIRI <http://ontologies.semanticarts.com/o/gistgeodata-US-1> ;
+                                                         owl:imports <http://ontologies.semanticarts.com/o/gistGeoCore0.1> ;
+                                                         rdfs:comment "Contains geographical data about the United States at the state level.  (GeoNames code A.ADM1)  (Territories and similar possessions are covered in a different data file.)" .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://ontologies.semanticarts.com/gistGeo#USState
+gistgeo:USState rdf:type owl:Class ;
+                rdfs:subClassOf gistgeo:GeopoliticalRegion .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://triples.semanticarts.com/gistGeo#_UnitedStates
+gistgeo3:_UnitedStates rdf:type owl:NamedIndividual ,
+                                gistgeo:GeopoliticalRegion ;
+                       owl:sameAs gnr:6252001 ;
+                       gist:categorizedBy gistgeo3:_country .
+
+
+###  http://sws.geonames.org/4076784
+gnr:4076784 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Montgomery, AL" .
+
+
+###  http://sws.geonames.org/4099753
+gnr:4099753 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4119403 ;
+     gist:name "Arkansas" ;
+     gistgeo:iso3166Code "US-AR" .
+
+
+###  http://sws.geonames.org/4119403
+gnr:4119403 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Little Rock, AR" .
+
+
+###  http://sws.geonames.org/4138106
+gnr:4138106 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gist:name "District of Columbia" .
+
+
+###  http://sws.geonames.org/4142224
+gnr:4142224 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4142290 ;
+     gist:name "Delaware" ;
+     gistgeo:iso3166Code "US-DE" .
+
+
+###  http://sws.geonames.org/4142290
+gnr:4142290 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Dover, DE" .
+
+
+###  http://sws.geonames.org/4155751
+gnr:4155751 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4174715 ;
+     gist:name "Florida" ;
+     gistgeo:iso3166Code "US-FL" .
+
+
+###  http://sws.geonames.org/4174715
+gnr:4174715 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Tallahassee, FL" .
+
+
+###  http://sws.geonames.org/4180439
+gnr:4180439 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Atlanta, GA" .
+
+
+###  http://sws.geonames.org/4197000
+gnr:4197000 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4180439 ;
+     gist:name "Georgia" ;
+     gistgeo:iso3166Code "US-GA" .
+
+
+###  http://sws.geonames.org/4250542
+gnr:4250542 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Springfield, IL" .
+
+
+###  http://sws.geonames.org/4259418
+gnr:4259418 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Indianapolis, IN" .
+
+
+###  http://sws.geonames.org/4273857
+gnr:4273857 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4280539 ;
+     gist:name "Kansas" ;
+     gistgeo:iso3166Code "US-KS" .
+
+
+###  http://sws.geonames.org/4280539
+gnr:4280539 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Topeka, KS" .
+
+
+###  http://sws.geonames.org/4292188
+gnr:4292188 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Frankfort, KY" .
+
+
+###  http://sws.geonames.org/4315588
+gnr:4315588 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Baton Rouge, LA" .
+
+
+###  http://sws.geonames.org/4331987
+gnr:4331987 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4315588 ;
+     gist:name "Louisiana" ;
+     gistgeo:iso3166Code "US-LA" .
+
+
+###  http://sws.geonames.org/4347242
+gnr:4347242 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Annapolis, MD" .
+
+
+###  http://sws.geonames.org/4361885
+gnr:4361885 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4347242 ;
+     gist:name "Maryland" ;
+     gistgeo:iso3166Code "US-MD" .
+
+
+###  http://sws.geonames.org/4392388
+gnr:4392388 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Jefferson City, MO" .
+
+
+###  http://sws.geonames.org/4398678
+gnr:4398678 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4392388 ;
+     gist:name "Missouri" ;
+     gistgeo:iso3166Code "US-MO" .
+
+
+###  http://sws.geonames.org/4431410
+gnr:4431410 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Jackson, MS" .
+
+
+###  http://sws.geonames.org/4436296
+gnr:4436296 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4431410 ;
+     gist:name "Mississippi" ;
+     gistgeo:iso3166Code "US-MS" .
+
+
+###  http://sws.geonames.org/4482348
+gnr:4482348 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4487042 ;
+     gist:name "North Carolina" ;
+     gistgeo:iso3166Code "US-NC" .
+
+
+###  http://sws.geonames.org/4487042
+gnr:4487042 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Raleigh, NC" .
+
+
+###  http://sws.geonames.org/4509177
+gnr:4509177 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Columbus, OH" .
+
+
+###  http://sws.geonames.org/4544349
+gnr:4544349 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Oklahoma City, OK" .
+
+
+###  http://sws.geonames.org/4544379
+gnr:4544379 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4544349 ;
+     gist:name "Oklahoma" ;
+     gistgeo:iso3166Code "US-OK" .
+
+
+###  http://sws.geonames.org/4575352
+gnr:4575352 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Columbia, SC" .
+
+
+###  http://sws.geonames.org/4597040
+gnr:4597040 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4575352 ;
+     gist:name "South Carolina" ;
+     gistgeo:iso3166Code "US-SC" .
+
+
+###  http://sws.geonames.org/4644585
+gnr:4644585 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Nashville, TN" .
+
+
+###  http://sws.geonames.org/4662168
+gnr:4662168 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4644585 ;
+     gist:name "Tennessee" ;
+     gistgeo:iso3166Code "US-TN" .
+
+
+###  http://sws.geonames.org/4671654
+gnr:4671654 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Austin, TX" .
+
+
+###  http://sws.geonames.org/4736286
+gnr:4736286 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4671654 ;
+     gist:name "Texas" ;
+     gistgeo:iso3166Code "US-TX" .
+
+
+###  http://sws.geonames.org/4781708
+gnr:4781708 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Richmond, VA" .
+
+
+###  http://sws.geonames.org/4801859
+gnr:4801859 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Charleston, WV" .
+
+
+###  http://sws.geonames.org/4826850
+gnr:4826850 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4801859 ;
+     gist:name "West Virginia" ;
+     gistgeo:iso3166Code "US-WV" .
+
+
+###  http://sws.geonames.org/4829764
+gnr:4829764 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4076784 ;
+     gist:name "Alabama" ;
+     gistgeo:iso3166Code "US-AL" .
+
+
+###  http://sws.geonames.org/4831725
+gnr:4831725 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4835797 ;
+     gist:name "Connecticut" ;
+     gistgeo:iso3166Code "US-CT" .
+
+
+###  http://sws.geonames.org/4835797
+gnr:4835797 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Hartford, CT" .
+
+
+###  http://sws.geonames.org/4853828
+gnr:4853828 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Des Moines, IA" .
+
+
+###  http://sws.geonames.org/4862182
+gnr:4862182 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4853828 ;
+     gist:name "Iowa" ;
+     gistgeo:iso3166Code "US-IA" .
+
+
+###  http://sws.geonames.org/4896861
+gnr:4896861 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4250542 ;
+     gist:name "Illinois" ;
+     gistgeo:iso3166Code "US-IL" .
+
+
+###  http://sws.geonames.org/4921868
+gnr:4921868 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4259418 ;
+     gist:name "Indiana" ;
+     gistgeo:iso3166Code "US-IN" .
+
+
+###  http://sws.geonames.org/4930956
+gnr:4930956 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Boston, MA" .
+
+
+###  http://sws.geonames.org/4957003
+gnr:4957003 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Augusta, ME" .
+
+
+###  http://sws.geonames.org/4971068
+gnr:4971068 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4957003 ;
+     gist:name "Maine" ;
+     gistgeo:iso3166Code "US-ME" .
+
+
+###  http://sws.geonames.org/4998830
+gnr:4998830 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Lansing, MI" .
+
+
+###  http://sws.geonames.org/5001836
+gnr:5001836 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4998830 ;
+     gist:name "Michigan" ;
+     gistgeo:iso3166Code "US-MI" .
+
+
+###  http://sws.geonames.org/5037779
+gnr:5037779 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5045360 ;
+     gist:name "Minnesota" ;
+     gistgeo:iso3166Code "US-MN" .
+
+
+###  http://sws.geonames.org/5045360
+gnr:5045360 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Saint Paul, MN" .
+
+
+###  http://sws.geonames.org/5072006
+gnr:5072006 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Lincoln, NE" .
+
+
+###  http://sws.geonames.org/5073708
+gnr:5073708 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5072006 ;
+     gist:name "Nebraska" ;
+     gistgeo:iso3166Code "US-NE" .
+
+
+###  http://sws.geonames.org/5084868
+gnr:5084868 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Concord, NH" .
+
+
+###  http://sws.geonames.org/5090174
+gnr:5090174 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5084868 ;
+     gist:name "New Hampshire" ;
+     gistgeo:iso3166Code "US-NH" .
+
+
+###  http://sws.geonames.org/5101760
+gnr:5101760 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5105496 ;
+     gist:name "New Jersey" ;
+     gistgeo:iso3166Code "US-NJ" .
+
+
+###  http://sws.geonames.org/5105496
+gnr:5105496 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Trenton, NJ" .
+
+
+###  http://sws.geonames.org/5106834
+gnr:5106834 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Albany, NY" .
+
+
+###  http://sws.geonames.org/5128638
+gnr:5128638 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5106834 ;
+     gist:name "New York" ;
+     gistgeo:iso3166Code "US-NY" .
+
+
+###  http://sws.geonames.org/5165418
+gnr:5165418 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4509177 ;
+     gist:name "Ohio" ;
+     gistgeo:iso3166Code "US-OH" .
+
+
+###  http://sws.geonames.org/5192726
+gnr:5192726 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Harrisburg, PA" .
+
+
+###  http://sws.geonames.org/5224151
+gnr:5224151 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Providence, RI" .
+
+
+###  http://sws.geonames.org/5224323
+gnr:5224323 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5224151 ;
+     gist:name "Rhode Island" ;
+     gistgeo:iso3166Code "US-RI" .
+
+
+###  http://sws.geonames.org/5238685
+gnr:5238685 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Montpelier, VT" .
+
+
+###  http://sws.geonames.org/5242283
+gnr:5242283 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5238685 ;
+     gist:name "Vermont" ;
+     gistgeo:iso3166Code "US-VT" .
+
+
+###  http://sws.geonames.org/5261457
+gnr:5261457 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Madison, WI" .
+
+
+###  http://sws.geonames.org/5279468
+gnr:5279468 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5261457 ;
+     gist:name "Wisconsin" ;
+     gistgeo:iso3166Code "US-WI" .
+
+
+###  http://sws.geonames.org/5308655
+gnr:5308655 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Phoenix, AZ" .
+
+
+###  http://sws.geonames.org/5332921
+gnr:5332921 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5389489 ;
+     gist:name "California" ;
+     gistgeo:iso3166Code "US-CA" .
+
+
+###  http://sws.geonames.org/5389489
+gnr:5389489 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Sacramento, CA" .
+
+
+###  http://sws.geonames.org/5417618
+gnr:5417618 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5419384 ;
+     gist:name "Colorado" ;
+     gistgeo:iso3166Code "US-CO" .
+
+
+###  http://sws.geonames.org/5419384
+gnr:5419384 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Denver, CO" .
+
+
+###  http://sws.geonames.org/5481136
+gnr:5481136 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5490263 ;
+     gist:name "New Mexico" ;
+     gistgeo:iso3166Code "US-NM" .
+
+
+###  http://sws.geonames.org/5490263
+gnr:5490263 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Santa Fe, NM" .
+
+
+###  http://sws.geonames.org/5501344
+gnr:5501344 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Carson City, NV" .
+
+
+###  http://sws.geonames.org/5509151
+gnr:5509151 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5501344 ;
+     gist:name "Nevada" ;
+     gistgeo:iso3166Code "US-NV" .
+
+
+###  http://sws.geonames.org/5549030
+gnr:5549030 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5780993 ;
+     gist:name "Utah" ;
+     gistgeo:iso3166Code "US-UT" .
+
+
+###  http://sws.geonames.org/5551752
+gnr:5551752 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5308655 ;
+     gist:name "Arizona" ;
+     gistgeo:iso3166Code "US-AZ" .
+
+
+###  http://sws.geonames.org/5554072
+gnr:5554072 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Juneau, AK" .
+
+
+###  http://sws.geonames.org/5586437
+gnr: rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Boise, ID" .
+
+
+###  http://sws.geonames.org/5596512
+gnr:5596512 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5586437 ;
+     gist:name "Idaho" ;
+     gistgeo:iso3166Code "US-ID" .
+
+
+###  http://sws.geonames.org/5656882
+gnr:5656882 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Helena, MT" .
+
+
+###  http://sws.geonames.org/5667009
+gnr:5667009 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5656882 ;
+     gist:name "Montana" ;
+     gistgeo:iso3166Code "US-MT" .
+
+
+###  http://sws.geonames.org/5688025
+gnr:5688025 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Bismarck, ND" .
+
+
+###  http://sws.geonames.org/5690763
+gnr:5690763 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5688025 ;
+     gist:name "North Dakota" ;
+     gistgeo:iso3166Code "US-ND" .
+
+
+###  http://sws.geonames.org/5744337
+gnr:5744337 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5750162 ;
+     gist:name "Oregon" ;
+     gistgeo:iso3166Code "US-OR" .
+
+
+###  http://sws.geonames.org/5750162
+gnr:5750162 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Salem, OR" .
+
+
+###  http://sws.geonames.org/5767918
+gnr:5767918 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Pierre, SD" .
+
+
+###  http://sws.geonames.org/5769223
+gnr:5769223 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5767918 ;
+     gist:name "South Dakota" ;
+     gistgeo:iso3166Code "US-SD" .
+
+
+###  http://sws.geonames.org/5780993
+gnr:5780993 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Salt Lake City, UT" .
+
+
+###  http://sws.geonames.org/5805687
+gnr:5805687 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Olympia, WA" .
+
+
+###  http://sws.geonames.org/5815135
+gnr:5815135 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5805687 ;
+     gist:name "Washington" ;
+     gistgeo:iso3166Code "US-WA" .
+
+
+###  http://sws.geonames.org/5821086
+gnr:5821086 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Cheyenne, WY" .
+
+
+###  http://sws.geonames.org/5843591
+gnr:5843591 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5821086 ;
+     gist:name "Wyoming" ;
+     gistgeo:iso3166Code "US-WY" .
+
+
+###  http://sws.geonames.org/5855797
+gnr:5855797 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5856195 ;
+     gist:name "Hawaii" ;
+     gistgeo:iso3166Code "US-HI" .
+
+
+###  http://sws.geonames.org/5856195
+gnr:5856195 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_populatedPlace ,
+                        gn:P.PPLA ;
+     gist:name "Honolulu, HI" .
+
+
+###  http://sws.geonames.org/5879092
+gnr:5879092 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5554072 ;
+     gist:name "Alaska" ;
+     gistgeo:iso3166Code "US-AK" .
+
+
+###  http://sws.geonames.org/6252001
+gnr:6252001 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ;
+     gist:categorizedBy gistgeo3:_country ,
+                        gn:A.PCLI ;
+     gist:geoDirectlyContainedIn gistgeo3:_NorthAmerica ;
+     gist:name "United States" ;
+     gistgeo:formalName "United States of America" ;
+     gistgeo:iso3166Code "US" ;
+     gistgeo:iso3166Number 840 .
+
+
+###  http://sws.geonames.org/6254925
+gnr:6254925 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4292188 ;
+     gist:name "Kentucky" ;
+     gistgeo:iso3166Code "US-KY" .
+
+
+###  http://sws.geonames.org/6254926
+gnr:6254926 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4930956 ;
+     gist:name "Massachusetts" ;
+     gistgeo:iso3166Code "US-MA" .
+
+
+###  http://sws.geonames.org/6254927
+gnr:6254927 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:5192726 ;
+     gist:name "Pennsylvania" ;
+     gistgeo:iso3166Code "US-PA" .
+
+
+###  http://sws.geonames.org/6254928
+gnr:6254928 rdf:type owl:NamedIndividual ,
+              gistgeo:GeopoliticalRegion ,
+              gistgeo:USState ;
+     gist:categorizedBy gistgeo3:_subregion ,
+                        gn:A.ADM1 ;
+     gist:geoDirectlyContainedIn gnr:6252001 ;
+     gistgeo:hasCapital gnr:4781708 ;
+     gist:name "Virginia" ;
+     gistgeo:iso3166Code "US-VA" .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi

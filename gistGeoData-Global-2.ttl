@@ -1,0 +1,580 @@
+@prefix : <http://ontologies.semanticarts.com/o/gistgeodata-Global-2> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix gnr: <http://sws.geonames.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix gist: <http://ontologies.semanticarts.com/gist#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix gistgeo: <http://ontologies.semanticarts.com/gistGeo#> .
+@prefix gistgeo3: <http://triples.semanticarts.com/gistGeo#> .
+
+<http://ontologies.semanticarts.com/o/gistgeodata-Global-2> a owl:Ontology ;
+	owl:versionIRI <http://ontologies.semanticarts.com/o/gistgeodata-Global-2> ;
+	owl:imports <http://ontologies.semanticarts.com/o/gistGeoCore0.1> , <http://ontologies.semanticarts.com/o/gistgeodata-Global-1> ;
+	rdfs:comment "Contains basic geographical data about internationally recognized dependent political entities. (GeoNames code A.PCLD, A.TERR, etc. )" .
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://sws.geonames.org/1024031
+
+gnr:1024031 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_IndianOcean , gistgeo3:_SubSaharanAfrica ;
+	gist:governedBy gnr:3017382 ;
+	gistgeo:geoPartOf gistgeo3:_FrenchOverseasTerritories ;
+	gist:name "Mayotte" ;
+	gistgeo:iso3166Code "YT" ;
+	gistgeo:iso3166Number "175"^^xsd:integer .
+# 
+# http://sws.geonames.org/1282588
+
+gnr:1282588 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_IndianOcean ;
+	gist:governedBy gnr:2635167 ;
+	gistgeo:geoPartOf gistgeo3:_UnitedKingdomOverseasTerritories ;
+	gist:name "British Indian Ocean Territory (the)" ;
+	gistgeo:iso3166Code "IO" ;
+	gistgeo:iso3166Number "86"^^xsd:integer .
+# 
+# http://sws.geonames.org/1546748
+
+gnr:1546748 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLIX ;
+	gist:geoDirectlyContainedIn gistgeo3:_Australia-Oceania , gistgeo3:_IndianOcean ;
+	gist:governedBy gnr:3017382 ;
+	gistgeo:geoPartOf gistgeo3:_FrenchOverseasTerritories ;
+	gist:name "French Southern Territories (the)" ;
+	gistgeo:iso3166Code "TF" ;
+	gistgeo:iso3166Number "260"^^xsd:integer .
+# 
+# http://sws.geonames.org/1547314
+
+gnr:1547314 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:governedBy gnr:2077456 ;
+	gist:name "Heard Island and McDonald Islands" ;
+	gistgeo:iso3166Code "HM" ;
+	gistgeo:iso3166Number "334"^^xsd:integer .
+# 
+# http://sws.geonames.org/1547376
+
+gnr:1547376 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_Australia-Oceania , gistgeo3:_IndianOcean ;
+	gist:governedBy gnr:2077456 ;
+	gist:name "Cocos (Keeling) Islands (the)" ;
+	gistgeo:iso3166Code "CC" ;
+	gistgeo:iso3166Number "166"^^xsd:integer .
+# 
+# http://sws.geonames.org/1668284
+
+gnr:1668284 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_EastAndSoutheastAsia ;
+	gist:name "Taiwan" ;
+	gistgeo:iso3166Code "TW" ;
+	gistgeo:iso3166Number "158"^^xsd:integer ;
+	rdfs:comment "Taiwan is categorized by GeoNames as an independent country." .
+# 
+# http://sws.geonames.org/1819730
+
+gnr:1819730 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLS ;
+	gist:geoDirectlyContainedIn gistgeo3:_EastAndSoutheastAsia ;
+	gist:governedBy gnr:1814991 ;
+	gist:name "Hong Kong" ;
+	gistgeo:iso3166Code "HK" ;
+	gistgeo:iso3166Number "344"^^xsd:integer .
+# 
+# http://sws.geonames.org/1821275
+
+gnr:1821275 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLS ;
+	gist:geoDirectlyContainedIn gistgeo3:_EastAndSoutheastAsia ;
+	gist:governedBy gnr:1814991 ;
+	gist:name "Macao" ;
+	gistgeo:iso3166Code "MO" ;
+	gistgeo:iso3166Number "446"^^xsd:integer .
+# 
+# http://sws.geonames.org/1899402
+
+gnr:1899402 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLS ;
+	gist:geoDirectlyContainedIn gistgeo3:_PacificIslands , gistgeo3:_SouthPacificOcean ;
+	gist:governedBy gnr:2186224 ;
+	gist:name "Cook Islands (the)" ;
+	gistgeo:iso3166Code "CK" ;
+	gistgeo:iso3166Number "184"^^xsd:integer .
+# 
+# http://sws.geonames.org/2078138
+
+gnr:2078138 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:governedBy gnr:2077456 ;
+	gist:name "Christmas Island" ;
+	gistgeo:iso3166Code "CX" ;
+	gistgeo:iso3166Number "162"^^xsd:integer .
+# 
+# http://sws.geonames.org/2139685
+
+gnr:2139685 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_PacificIslands , gistgeo3:_SouthPacificOcean ;
+	gist:governedBy gnr:3017382 ;
+	gistgeo:geoPartOf gistgeo3:_FrenchOverseasTerritories ;
+	gist:name "New Caledonia" ;
+	gistgeo:iso3166Code "NC" ;
+	gistgeo:iso3166Number "540"^^xsd:integer .
+# 
+# http://sws.geonames.org/2155115
+
+gnr:2155115 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_PacificIslands , gistgeo3:_SouthPacificOcean ;
+	gist:governedBy gnr:2077456 ;
+	gist:name "Norfolk Island" ;
+	gistgeo:iso3166Code "NF" ;
+	gistgeo:iso3166Number "574"^^xsd:integer .
+# 
+# http://sws.geonames.org/2411586
+
+gnr:2411586 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_SouthernEurope , gistgeo3:_WesternEurope ;
+	gist:governedBy gnr:2635167 ;
+	gistgeo:geoPartOf gistgeo3:_UnitedKingdomOverseasTerritories ;
+	gist:name "Gibraltar" ;
+	gistgeo:iso3166Code "GI" ;
+	gistgeo:iso3166Number "292"^^xsd:integer .
+# 
+# http://sws.geonames.org/2461445
+
+gnr:2461445 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.TERR ;
+	gist:geoDirectlyContainedIn gistgeo3:_NorthAfrica ;
+	gist:name "Western Sahara" ;
+	gistgeo:iso3166Code "EH" ;
+	gistgeo:iso3166Number "732"^^xsd:integer .
+# 
+# http://sws.geonames.org/2622320
+
+gnr:2622320 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_NordicCountries , gistgeo3:_NorthAtlanticOcean , gistgeo3:_NorthernEurope , gistgeo3:_WesternEurope ;
+	gist:governedBy gnr:2623032 ;
+	gistgeo:geoPartOf gistgeo3:_DanishOverseasTerritories ;
+	gist:name "Faroe Islands (the)" ;
+	gistgeo:iso3166Code "FO" ;
+	gistgeo:iso3166Number "234"^^xsd:integer .
+# 
+# http://sws.geonames.org/3042142
+
+gnr:3042142 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCL ;
+	gist:geoDirectlyContainedIn gistgeo3:_WesternEurope ;
+	gist:governedBy gnr:2635167 ;
+	gistgeo:geoPartOf gistgeo3:_UnitedKingdomOverseasTerritories ;
+	gist:name "Jersey" ;
+	gistgeo:iso3166Code "JE" ;
+	gistgeo:iso3166Number "832"^^xsd:integer .
+# 
+# http://sws.geonames.org/3042225
+
+gnr:3042225 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCL ;
+	gist:governedBy gnr:2635167 ;
+	gist:name "Isle of Man" ;
+	gistgeo:iso3166Code "IM" ;
+	gistgeo:iso3166Number "833"^^xsd:integer .
+# 
+# http://sws.geonames.org/3042362
+
+gnr:3042362 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCL ;
+	gist:geoDirectlyContainedIn gistgeo3:_WesternEurope ;
+	gist:governedBy gnr:2635167 ;
+	gistgeo:geoPartOf gistgeo3:_UnitedKingdomOverseasTerritories ;
+	gist:name "Guernsey" ;
+	gistgeo:iso3166Code "GG" ;
+	gistgeo:iso3166Number "831"^^xsd:integer .
+# 
+# http://sws.geonames.org/3370751
+
+gnr:3370751 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_SouthAtlanticOcean ;
+	gist:governedBy gnr:2635167 ;
+	gistgeo:geoPartOf gistgeo3:_UnitedKingdomOverseasTerritories ;
+	gist:name "Saint Helena, Ascension and Tristan da Cunha" ;
+	gistgeo:iso3166Code "SH" ;
+	gistgeo:iso3166Number "654"^^xsd:integer .
+# 
+# http://sws.geonames.org/3371123
+
+gnr:3371123 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:governedBy gnr:3144096 ;
+	gist:name "Bouvet Island" ;
+	gistgeo:iso3166Code "BV" ;
+	gistgeo:iso3166Number "74"^^xsd:integer .
+# 
+# http://sws.geonames.org/3381670
+
+gnr:3381670 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_SouthAmerica ;
+	gist:governedBy gnr:3017382 ;
+	gistgeo:geoPartOf gistgeo3:_FrenchOverseasTerritories ;
+	gist:name "French Guiana" ;
+	gistgeo:iso3166Code "GF" ;
+	gistgeo:iso3166Number "254"^^xsd:integer .
+# 
+# http://sws.geonames.org/3424932
+
+gnr:3424932 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_NorthAtlanticOcean ;
+	gist:governedBy gnr:3017382 ;
+	gistgeo:geoPartOf gistgeo3:_FrenchOverseasTerritories ;
+	gist:name "Saint Pierre and Miquelon" ;
+	gistgeo:iso3166Code "PM" ;
+	gistgeo:iso3166Number "666"^^xsd:integer .
+# 
+# http://sws.geonames.org/3425505
+
+gnr:3425505 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_NorthAmerica , gistgeo3:_NorthAtlanticOcean ;
+	gist:governedBy gnr:2623032 ;
+	gistgeo:geoPartOf gistgeo3:_DanishOverseasTerritories ;
+	gist:name "Greenland" ;
+	gistgeo:iso3166Code "GL" ;
+	gistgeo:iso3166Number "304"^^xsd:integer .
+# 
+# http://sws.geonames.org/3474414
+
+gnr:3474414 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_SouthAmerica ;
+	gist:governedBy gnr:2635167 ;
+	gistgeo:geoPartOf gistgeo3:_UnitedKingdomOverseasTerritories ;
+	gist:name "Falkland Islands" ;
+	gistgeo:iso3166Code "FK" ;
+	gistgeo:iso3166Number "238"^^xsd:integer .
+# 
+# http://sws.geonames.org/3474415
+
+gnr:3474415 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_SouthAtlanticOcean ;
+	gist:governedBy gnr:2635167 ;
+	gistgeo:geoPartOf gistgeo3:_UnitedKingdomOverseasTerritories ;
+	gist:name "South Georgia and the South Sandwich Islands" ;
+	gistgeo:iso3166Code "GS" ;
+	gistgeo:iso3166Number "239"^^xsd:integer .
+# 
+# http://sws.geonames.org/3570311
+
+gnr:3570311 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_Caribbean ;
+	gist:governedBy gnr:3017382 ;
+	gistgeo:geoPartOf gistgeo3:_FrenchOverseasTerritories ;
+	gist:name "Martinique" ;
+	gistgeo:iso3166Code "MQ" ;
+	gistgeo:iso3166Number "474"^^xsd:integer .
+# 
+# http://sws.geonames.org/3573345
+
+gnr:3573345 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_NorthAtlanticOcean ;
+	gist:governedBy gnr:2635167 ;
+	gistgeo:geoPartOf gistgeo3:_UnitedKingdomOverseasTerritories ;
+	gist:name "Bermuda" ;
+	gistgeo:iso3166Code "BM" ;
+	gistgeo:iso3166Number "60"^^xsd:integer .
+# 
+# http://sws.geonames.org/3573511
+
+gnr:3573511 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_Caribbean ;
+	gist:governedBy gnr:2635167 ;
+	gistgeo:geoPartOf gistgeo3:_UnitedKingdomOverseasTerritories ;
+	gist:name "Anguilla" ;
+	gistgeo:iso3166Code "AI" ;
+	gistgeo:iso3166Number "660"^^xsd:integer .
+# 
+# http://sws.geonames.org/3576916
+
+gnr:3576916 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_Caribbean ;
+	gist:governedBy gnr:2635167 ;
+	gistgeo:geoPartOf gistgeo3:_UnitedKingdomOverseasTerritories ;
+	gist:name "Turks and Caicos Islands (the)" ;
+	gistgeo:iso3166Code "TC" ;
+	gistgeo:iso3166Number "796"^^xsd:integer .
+# 
+# http://sws.geonames.org/3577279
+
+gnr:3577279 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLIX ;
+	gist:geoDirectlyContainedIn gistgeo3:_Caribbean ;
+	gist:governedBy gnr:2750405 ;
+	gist:name "Aruba" ;
+	gistgeo:iso3166Code "AW" ;
+	gistgeo:iso3166Number "533"^^xsd:integer .
+# 
+# http://sws.geonames.org/3577718
+
+gnr:3577718 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_Caribbean ;
+	gist:governedBy gnr:2635167 ;
+	gistgeo:geoPartOf gistgeo3:_UnitedKingdomOverseasTerritories ;
+	gist:name "Virgin Islands (British)" ;
+	gistgeo:iso3166Code "VG" ;
+	gistgeo:iso3166Number "92"^^xsd:integer .
+# 
+# http://sws.geonames.org/3578097
+
+gnr:3578097 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_Caribbean ;
+	gist:governedBy gnr:2635167 ;
+	gistgeo:geoPartOf gistgeo3:_UnitedKingdomOverseasTerritories ;
+	gist:name "Montserrat" ;
+	gistgeo:iso3166Code "MS" ;
+	gistgeo:iso3166Number "500"^^xsd:integer .
+# 
+# http://sws.geonames.org/3578421
+
+gnr:3578421 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLIX ;
+	gist:geoDirectlyContainedIn gistgeo3:_Caribbean ;
+	gist:governedBy gnr:3017382 ;
+	gistgeo:geoPartOf gistgeo3:_FrenchOverseasTerritories ;
+	gist:name "Saint Martin (French part)" ;
+	gistgeo:iso3166Code "MF" ;
+	gistgeo:iso3166Number "663"^^xsd:integer .
+# 
+# http://sws.geonames.org/3578476
+
+gnr:3578476 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLIX ;
+	gist:geoDirectlyContainedIn gistgeo3:_Caribbean ;
+	gist:governedBy gnr:3017382 ;
+	gistgeo:geoPartOf gistgeo3:_FrenchOverseasTerritories ;
+	gist:name "Saint Barthelemy" ;
+	gistgeo:iso3166Code "BL" ;
+	gistgeo:iso3166Number "652"^^xsd:integer .
+# 
+# http://sws.geonames.org/3579143
+
+gnr:3579143 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_Caribbean ;
+	gist:governedBy gnr:3017382 ;
+	gistgeo:geoPartOf gistgeo3:_FrenchOverseasTerritories ;
+	gist:name "Guadeloupe" ;
+	gistgeo:iso3166Code "GP" ;
+	gistgeo:iso3166Number "312"^^xsd:integer .
+# 
+# http://sws.geonames.org/3580718
+
+gnr:3580718 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_Caribbean ;
+	gist:governedBy gnr:2635167 ;
+	gistgeo:geoPartOf gistgeo3:_UnitedKingdomOverseasTerritories ;
+	gist:name "Cayman Islands (the)" ;
+	gistgeo:iso3166Code "KY" ;
+	gistgeo:iso3166Number "136"^^xsd:integer .
+# 
+# http://sws.geonames.org/4030656
+
+gnr:4030656 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_PacificIslands , gistgeo3:_SouthPacificOcean ;
+	gist:governedBy gnr:3017382 ;
+	gistgeo:geoPartOf gistgeo3:_FrenchOverseasTerritories ;
+	gist:name "French Polynesia" ;
+	gistgeo:iso3166Code "PF" ;
+	gistgeo:iso3166Number "258"^^xsd:integer .
+# 
+# http://sws.geonames.org/4030699
+
+gnr:4030699 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_PacificIslands , gistgeo3:_SouthPacificOcean ;
+	gist:governedBy gnr:2635167 ;
+	gistgeo:geoPartOf gistgeo3:_UnitedKingdomOverseasTerritories ;
+	gist:name "Pitcairn Islands" ;
+	gistgeo:iso3166Code "PN" ;
+	gistgeo:iso3166Number "612"^^xsd:integer .
+# 
+# http://sws.geonames.org/4031074
+
+gnr:4031074 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_PacificIslands , gistgeo3:_SouthPacificOcean ;
+	gist:governedBy gnr:2186224 ;
+	gist:name "Tokelau" ;
+	gistgeo:iso3166Code "TK" ;
+	gistgeo:iso3166Number "772"^^xsd:integer .
+# 
+# http://sws.geonames.org/4034749
+
+gnr:4034749 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_PacificIslands , gistgeo3:_SouthPacificOcean ;
+	gist:governedBy gnr:3017382 ;
+	gistgeo:geoPartOf gistgeo3:_FrenchOverseasTerritories ;
+	gist:name "Wallis and Futuna" ;
+	gistgeo:iso3166Code "WF" ;
+	gistgeo:iso3166Number "876"^^xsd:integer .
+# 
+# http://sws.geonames.org/4036232
+
+gnr:4036232 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLS ;
+	gist:geoDirectlyContainedIn gistgeo3:_PacificIslands , gistgeo3:_SouthPacificOcean ;
+	gist:governedBy gnr:2186224 ;
+	gist:name "Niue" ;
+	gistgeo:iso3166Code "NU" ;
+	gistgeo:iso3166Number "570"^^xsd:integer .
+# 
+# http://sws.geonames.org/4041468
+
+gnr:4041468 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_NorthPacificOcean , gistgeo3:_PacificIslands ;
+	gist:governedBy gnr:6252001 ;
+	gist:name "Northern Mariana Islands" ;
+	gistgeo:iso3166Code "MP" ;
+	gistgeo:iso3166Number "580"^^xsd:integer .
+# 
+# http://sws.geonames.org/4043988
+
+gnr:4043988 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_NorthPacificOcean , gistgeo3:_PacificIslands ;
+	gist:governedBy gnr:6252001 ;
+	gist:name "Guam" ;
+	gistgeo:iso3166Code "GU" ;
+	gistgeo:iso3166Number "316"^^xsd:integer .
+# 
+# http://sws.geonames.org/4566966
+
+gnr:4566966 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_Caribbean ;
+	gist:governedBy gnr:6252001 ;
+	gist:name "Puerto Rico" ;
+	gistgeo:iso3166Code "PR" ;
+	gistgeo:iso3166Number "630"^^xsd:integer .
+# 
+# http://sws.geonames.org/4796775
+
+gnr:4796775 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_Caribbean ;
+	gist:governedBy gnr:6252001 ;
+	gist:name "Virgin Islands (U.S.)" ;
+	gistgeo:iso3166Code "VI" ;
+	gistgeo:iso3166Number "850"^^xsd:integer .
+# 
+# http://sws.geonames.org/5854968
+
+gnr:5854968 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_NorthPacificOcean , gistgeo3:_PacificIslands ;
+	gist:governedBy gnr:6252001 ;
+	gistgeo:geoPartOf gistgeo3:_AmericanOverseasTerritories ;
+	gist:name "United States Minor Outlying Islands" ;
+	gistgeo:iso3166Code "UM" ;
+	gistgeo:iso3166Number "581"^^xsd:integer .
+# 
+# http://sws.geonames.org/5880801
+
+gnr:5880801 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.TERR ;
+	gist:geoDirectlyContainedIn gistgeo3:_PacificIslands , gistgeo3:_SouthPacificOcean ;
+	gist:governedBy gnr:6252001 ;
+	gistgeo:geoPartOf gistgeo3:_AmericanOverseasTerritories ;
+	gist:name "American Samoa" ;
+	gistgeo:iso3166Code "AS" ;
+	gistgeo:iso3166Number "16"^^xsd:integer .
+# 
+# http://sws.geonames.org/607072
+
+gnr:607072 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.TERR ;
+	gist:geoDirectlyContainedIn gistgeo3:_NorthernEurope ;
+	gist:governedBy gnr:3144096 ;
+	gist:name "Svalbard and Jan Mayen" ;
+	gistgeo:iso3166Code "SJ" ;
+	gistgeo:iso3166Number "744"^^xsd:integer .
+# 
+# http://sws.geonames.org/661882
+
+gnr:661882 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:governedBy gnr:660013 ;
+	gist:name "Aland Islands" ;
+	gistgeo:iso3166Code "AX" ;
+	gistgeo:iso3166Number "248"^^xsd:integer .
+# 
+# http://sws.geonames.org/7609695
+
+gnr:7609695 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLIX ;
+	gist:geoDirectlyContainedIn gistgeo3:_Caribbean ;
+	gist:governedBy gnr:2750405 ;
+	gist:name "Sint Maarten (Dutch part)" ;
+	gistgeo:iso3166Code "SX" ;
+	gistgeo:iso3166Number "534"^^xsd:integer .
+# 
+# http://sws.geonames.org/7626836
+
+gnr:7626836 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLIX ;
+	gist:geoDirectlyContainedIn gistgeo3:_Caribbean ;
+	gist:governedBy gnr:2750405 ;
+	gist:name "Curacao" ;
+	gistgeo:iso3166Code "CW" ;
+	gistgeo:iso3166Number "531"^^xsd:integer .
+# 
+# http://sws.geonames.org/7626844
+
+gnr:7626844 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLIX ;
+	gist:geoDirectlyContainedIn gistgeo3:_Caribbean ;
+	gist:governedBy gnr:2750405 ;
+	gist:name "Bonaire, Sint Eustatius and Saba" ;
+	gistgeo:iso3166Code "BQ" ;
+	gistgeo:iso3166Number "535"^^xsd:integer .
+# 
+# http://sws.geonames.org/935317
+
+gnr:935317 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_NorthAtlanticOcean ;
+	gist:governedBy gnr:3017382 ;
+	gistgeo:geoPartOf gistgeo3:_FrenchOverseasTerritories ;
+	gist:name "Reunion" ;
+	gistgeo:iso3166Code "RE" ;
+	gistgeo:iso3166Number "638"^^xsd:integer .
+# 
+# Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi

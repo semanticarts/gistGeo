@@ -1,0 +1,420 @@
+@prefix : <http://ontologies.semanticarts.com/o/gistgeodata-Global-1> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix gnr: <http://sws.geonames.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix gist: <http://ontologies.semanticarts.com/gist#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix gistgeo: <http://ontologies.semanticarts.com/gistGeo#> .
+@prefix gistgeo3: <http://triples.semanticarts.com/gistGeo#> .
+
+<http://ontologies.semanticarts.com/o/gistgeodata-Global-1> a owl:Ontology ;
+	owl:versionIRI <http://ontologies.semanticarts.com/o/gistgeodata-Global-1> ;
+	owl:imports <http://ontologies.semanticarts.com/o/gistGeoCore0.1> ;
+	rdfs:comment "Contains basic geographical data about internationally recognized countries. (GeoNames code A.PCLI)  (Data about dependent political entities are contained in a different file.)" .
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+gnr:1149361 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Afghanistan" ;  gistgeo:formalName "Islamic Republic of Afghanistan" ; gistgeo:iso3166Code "AF" ; gistgeo:iso3166Number 4 .
+gnr:783754 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Albania" ;  gistgeo:formalName "Republic of Albania" ; gistgeo:iso3166Code "AL" ; gistgeo:iso3166Number 8 .
+gnr:2589581 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Algeria" ;  gistgeo:formalName "People's Democratic Republic of Algeria" ; gistgeo:iso3166Code "DZ" ; gistgeo:iso3166Number 12 .
+gnr:3041565 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Andorra" ;  gistgeo:formalName "Principality of Andorra" ; gistgeo:iso3166Code "AD" ; gistgeo:iso3166Number 20 .
+gnr:3351879 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Angola" ;  gistgeo:formalName "Republic of Angola" ; gistgeo:iso3166Code "AO" ; gistgeo:iso3166Number 24 .
+gnr:3576396 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Antigua and Barbuda" ;  gistgeo:formalName "Antiqua and Barbuda" ; gistgeo:iso3166Code "AG" ; gistgeo:iso3166Number 28 .
+gnr:3865483 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Argentina" ;  gistgeo:formalName "Argentine Republic" ; gistgeo:iso3166Code "AR" ; gistgeo:iso3166Number 32 .
+gnr:174982 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Armenia" ;  gistgeo:formalName "Republic of Armenia" ; gistgeo:iso3166Code "AM" ; gistgeo:iso3166Number 51 .
+gnr:2077456 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Australia" ;  gistgeo:formalName "Commonwealth of Australia" ; gistgeo:iso3166Code "AU" ; gistgeo:iso3166Number 36 .
+gnr:2782113 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Austria" ;  gistgeo:formalName "Republic of Austria" ; gistgeo:iso3166Code "AT" ; gistgeo:iso3166Number 40 .
+gnr:587116 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Azerbaijan" ;  gistgeo:formalName "Republic of Azerbaijan" ; gistgeo:iso3166Code "AZ" ; gistgeo:iso3166Number 31 .
+gnr:3572887 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Bahamas" ;  gistgeo:formalName "Commonwealth of The Bahamas" ; gistgeo:iso3166Code "BS" ; gistgeo:iso3166Number 44 .
+gnr:290291 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Bahrain" ;  gistgeo:formalName "Kingdom of Bahrain" ; gistgeo:iso3166Code "BH" ; gistgeo:iso3166Number 48 .
+gnr:1210997 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Bangladesh" ;  gistgeo:formalName "People's Republic of Bangladesh" ; gistgeo:iso3166Code "BD" ; gistgeo:iso3166Number 50 .
+gnr:3374084 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Barbados" ;  gistgeo:formalName "Barbados" ; gistgeo:iso3166Code "BB" ; gistgeo:iso3166Number 52 .
+gnr:630336 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Belarus" ;  gistgeo:formalName "Republic of Belarus" ; gistgeo:iso3166Code "BY" ; gistgeo:iso3166Number 112 .
+gnr:2802361 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Belgium" ;  gistgeo:formalName "Kingdom of Belgium" ; gistgeo:iso3166Code "BE" ; gistgeo:iso3166Number 56 .
+gnr:3582678 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Belize" ;  gistgeo:formalName "Belize" ; gistgeo:iso3166Code "BZ" ; gistgeo:iso3166Number 84 .
+gnr:2395170 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Benin" ;  gistgeo:formalName "Republic of Benin" ; gistgeo:iso3166Code "BJ" ; gistgeo:iso3166Number 204 .
+gnr:1252634 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Bhutan" ;  gistgeo:formalName "Kingdom of Bhutan" ; gistgeo:iso3166Code "BT" ; gistgeo:iso3166Number 64 .
+gnr:3923057 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Bolivia" ;  gistgeo:formalName "Plurinational State of Bolivia" ; gistgeo:iso3166Code "BO" ; gistgeo:iso3166Number 68 .
+gnr:3277605 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Bosnia and Herzegovina" ;  gistgeo:formalName "Bosnia and Herzegovina" ; gistgeo:iso3166Code "BA" ; gistgeo:iso3166Number 70 .
+gnr:933860 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Botswana" ;  gistgeo:formalName "Republic of Botswana" ; gistgeo:iso3166Code "BW" ; gistgeo:iso3166Number 72 .
+gnr:3469034 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Brazil" ;  gistgeo:formalName "Federative Republic of Brazil" ; gistgeo:iso3166Code "BR" ; gistgeo:iso3166Number 76 .
+gnr:1820814 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Brunei" ;  gistgeo:formalName "Brunei Darussalam" ; gistgeo:iso3166Code "BN" ; gistgeo:iso3166Number 96 .
+gnr:732800 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Bulgaria" ;  gistgeo:formalName "Republic of Bulgaria" ; gistgeo:iso3166Code "BG" ; gistgeo:iso3166Number 100 .
+gnr:2361809 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Burkina Faso" ;  gistgeo:formalName "Burkina Faso" ; gistgeo:iso3166Code "BF" ; gistgeo:iso3166Number 854 .
+gnr:433561 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Burundi" ;  gistgeo:formalName "Republic of Burundi" ; gistgeo:iso3166Code "BI" ; gistgeo:iso3166Number 108 .
+gnr:3374766 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Cabo Verde" ;  gistgeo:formalName "Republic of Cabo Verde" ; gistgeo:iso3166Code "CV" ; gistgeo:iso3166Number 132 .
+gnr:1831722 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Cambodia" ;  gistgeo:formalName "Kingdom of Cambodia" ; gistgeo:iso3166Code "KH" ; gistgeo:iso3166Number 116 .
+gnr:2233387 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Cameroon" ;  gistgeo:formalName "Republic of Cameroon" ; gistgeo:iso3166Code "CM" ; gistgeo:iso3166Number 120 .
+gnr:6251999 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Canada" ;  gistgeo:formalName "Canada" ; gistgeo:iso3166Code "CA" ; gistgeo:iso3166Number 124 .
+gnr:3374766 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Cape Verde" ;  gistgeo:formalName "Republic of Cabo Verde" ; gistgeo:iso3166Code "CV" ; gistgeo:iso3166Number 132 .
+gnr:239880 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Central African Republic" ;  gistgeo:formalName "Central African Republic" ; gistgeo:iso3166Code "CF" ; gistgeo:iso3166Number 140 .
+gnr:2434508 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Chad" ;  gistgeo:formalName "Republic of Chad" ; gistgeo:iso3166Code "TD" ; gistgeo:iso3166Number 148 .
+gnr:3895114 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Chile" ;  gistgeo:formalName "Republic of Chile" ; gistgeo:iso3166Code "CL" ; gistgeo:iso3166Number 152 .
+gnr:1814991 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "China" ;  gistgeo:formalName "People's Republic of China" ; gistgeo:iso3166Code "CN" ; gistgeo:iso3166Number 156 .
+gnr:3686110 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Colombia" ;  gistgeo:formalName "Republic of Colombia" ; gistgeo:iso3166Code "CO" ; gistgeo:iso3166Number 170 .
+gnr:921929 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Comoros" ;  gistgeo:formalName "Union of the Comoros" ; gistgeo:iso3166Code "KM" ; gistgeo:iso3166Number 174 .
+gnr:2260494 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Congo-Brazzaville" ;  gistgeo:formalName "Republic of the Congo" ; gistgeo:iso3166Code "CD" ; gistgeo:iso3166Number 180 .
+gnr:203312 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Congo-Kinshasa" ;  gistgeo:formalName "Democratic Republic of the Congo" ; gistgeo:iso3166Code "CG" ; gistgeo:iso3166Number 178 .
+gnr:3624060 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Costa Rica" ;  gistgeo:formalName "Republic of Costa Rica" ; gistgeo:iso3166Code "CR" ; gistgeo:iso3166Number 188 .
+gnr:2287781 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Cote d'Ivoire" ;  gistgeo:formalName "Republic of Cote d'Ivoire" ; gistgeo:iso3166Code "CI" ; gistgeo:iso3166Number 384 .
+gnr:3202326 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Croatia" ;  gistgeo:formalName "Republic of Croatia" ; gistgeo:iso3166Code "HR" ; gistgeo:iso3166Number 191 .
+gnr:3562981 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Cuba" ;  gistgeo:formalName "Republic of Cuba" ; gistgeo:iso3166Code "CU" ; gistgeo:iso3166Number 192 .
+gnr:146669 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Cyprus" ;  gistgeo:formalName "Republic of Cyprus" ; gistgeo:iso3166Code "CY" ; gistgeo:iso3166Number 196 .
+gnr:3077311 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Czech Republic" ;  gistgeo:formalName "Czech Republic" ; gistgeo:iso3166Code "CZ" ; gistgeo:iso3166Number 203 .
+gnr:2623032 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Denmark" ;  gistgeo:formalName "Kingdom of Denmark" ; gistgeo:iso3166Code "DK" ; gistgeo:iso3166Number 208 .
+gnr:223816 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Djibouti" ;  gistgeo:formalName "Republic of Djibouti" ; gistgeo:iso3166Code "DJ" ; gistgeo:iso3166Number 262 .
+gnr:3575830 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Dominica" ;  gistgeo:formalName "Commonwealth of Dominica" ; gistgeo:iso3166Code "DM" ; gistgeo:iso3166Number 212 .
+gnr:3508796 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Dominican Republic" ;  gistgeo:formalName "Dominican Republic" ; gistgeo:iso3166Code "DO" ; gistgeo:iso3166Number 214 .
+gnr:3658394 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Ecuador" ;  gistgeo:formalName "Republic of Ecuador" ; gistgeo:iso3166Code "EC" ; gistgeo:iso3166Number 218 .
+gnr:357994 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Egypt" ;  gistgeo:formalName "Arab Republic of Egypt" ; gistgeo:iso3166Code "EG" ; gistgeo:iso3166Number 818 .
+gnr:3585968 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "El Salvador" ;  gistgeo:formalName "Republic of El Salvador" ; gistgeo:iso3166Code "SV" ; gistgeo:iso3166Number 222 .
+gnr:2309096 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Equatorial Guinea" ;  gistgeo:formalName "Republic of Equatorial Guinea" ; gistgeo:iso3166Code "GQ" ; gistgeo:iso3166Number 226 .
+gnr:338010 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Eritrea" ;  gistgeo:formalName "State of Eritrea" ; gistgeo:iso3166Code "ER" ; gistgeo:iso3166Number 232 .
+gnr:453733 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Estonia" ;  gistgeo:formalName "Republic of Estonia" ; gistgeo:iso3166Code "EE" ; gistgeo:iso3166Number 233 .
+gnr:337996 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Ethiopia" ;  gistgeo:formalName "Federal Democratic Republic of Ethiopia" ; gistgeo:iso3166Code "ET" ; gistgeo:iso3166Number 231 .
+gnr:2205218 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Fiji" ;  gistgeo:formalName "Republic of Fiji" ; gistgeo:iso3166Code "FJ" ; gistgeo:iso3166Number 242 .
+gnr:660013 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Finland" ;  gistgeo:formalName "Republic of Finland" ; gistgeo:iso3166Code "FI" ; gistgeo:iso3166Number 246 .
+gnr:3017382 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "France" ;  gistgeo:formalName "French Republic" ; gistgeo:iso3166Code "FR" ; gistgeo:iso3166Number 250 .
+gnr:2400553 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Gabon" ;  gistgeo:formalName "Gabonese Republic" ; gistgeo:iso3166Code "GA" ; gistgeo:iso3166Number 266 .
+gnr:2413451 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Gambia" ;  gistgeo:formalName "Republic of The Gambia" ; gistgeo:iso3166Code "GM" ; gistgeo:iso3166Number 270 .
+gnr:614540 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Georgia" ;  gistgeo:formalName "Georgia" ; gistgeo:iso3166Code "GE" ; gistgeo:iso3166Number 268 .
+gnr:2921044 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Germany" ;  gistgeo:formalName "Federal Republic of Germany" ; gistgeo:iso3166Code "DE" ; gistgeo:iso3166Number 276 .
+gnr:2300660 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Ghana" ;  gistgeo:formalName "Republic of Ghana" ; gistgeo:iso3166Code "GH" ; gistgeo:iso3166Number 288 .
+gnr:390903 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Greece" ;  gistgeo:formalName "Hellenic Republic" ; gistgeo:iso3166Code "GR" ; gistgeo:iso3166Number 300 .
+gnr:3580239 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Grenada" ;  gistgeo:formalName "Grenada" ; gistgeo:iso3166Code "GD" ; gistgeo:iso3166Number 308 .
+gnr:3595528 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Guatemala" ;  gistgeo:formalName "Republic of Guatemala" ; gistgeo:iso3166Code "GT" ; gistgeo:iso3166Number 320 .
+gnr:2420477 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Guinea" ;  gistgeo:formalName "Republic of Guinea" ; gistgeo:iso3166Code "GN" ; gistgeo:iso3166Number 324 .
+gnr:2372248 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Guinea-Bissau" ;  gistgeo:formalName "Republic of Guinea-Bissau" ; gistgeo:iso3166Code "GW" ; gistgeo:iso3166Number 624 .
+gnr:3378535 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Guyana" ;  gistgeo:formalName "Co-operative Republic of Guyana" ; gistgeo:iso3166Code "GY" ; gistgeo:iso3166Number 328 .
+gnr:3723988 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Haiti" ;  gistgeo:formalName "Republic of Haiti" ; gistgeo:iso3166Code "HT" ; gistgeo:iso3166Number 332 .
+gnr:3164670 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Holy See" ;  gistgeo:formalName "Holy See" ; gistgeo:iso3166Code "VA" ; gistgeo:iso3166Number 336 .
+gnr:3608932 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Honduras" ;  gistgeo:formalName "Republic of Honduras" ; gistgeo:iso3166Code "HN" ; gistgeo:iso3166Number 340 .
+gnr:719819 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Hungary" ;  gistgeo:formalName "Hungary" ; gistgeo:iso3166Code "HU" ; gistgeo:iso3166Number 348 .
+gnr:2629691 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Iceland" ;  gistgeo:formalName "Republic of Iceland" ; gistgeo:iso3166Code "IS" ; gistgeo:iso3166Number 352 .
+gnr:1269750 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "India" ;  gistgeo:formalName "Republic of India" ; gistgeo:iso3166Code "IN" ; gistgeo:iso3166Number 356 .
+gnr:1643084 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Indonesia" ;  gistgeo:formalName "Republic of Indonesia" ; gistgeo:iso3166Code "ID" ; gistgeo:iso3166Number 360 .
+gnr:130758 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Iran" ;  gistgeo:formalName "Islamic Republic of Iran" ; gistgeo:iso3166Code "IR" ; gistgeo:iso3166Number 364 .
+gnr:99237 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Iraq" ;  gistgeo:formalName "Republic of Iraq" ; gistgeo:iso3166Code "IQ" ; gistgeo:iso3166Number 368 .
+gnr:2963597 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Ireland" ;  gistgeo:formalName "Ireland" ; gistgeo:iso3166Code "IE" ; gistgeo:iso3166Number 372 .
+gnr:294640 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Israel" ;  gistgeo:formalName "State of Israel" ; gistgeo:iso3166Code "IL" ; gistgeo:iso3166Number 376 .
+gnr:3175395 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Italy" ;  gistgeo:formalName "Italian Republic" ; gistgeo:iso3166Code "IT" ; gistgeo:iso3166Number 380 .
+gnr:3489940 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Jamaica" ;  gistgeo:formalName "Jamaica" ; gistgeo:iso3166Code "JM" ; gistgeo:iso3166Number 388 .
+gnr:1861060 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Japan" ;  gistgeo:formalName "Japan" ; gistgeo:iso3166Code "JP" ; gistgeo:iso3166Number 392 .
+gnr:248816 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Jordan" ;  gistgeo:formalName "Hashemite Kingdom of Jordan" ; gistgeo:iso3166Code "JO" ; gistgeo:iso3166Number 400 .
+gnr:1522867 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Kazakhstan" ;  gistgeo:formalName "Republic of Kazakhstan" ; gistgeo:iso3166Code "KZ" ; gistgeo:iso3166Number 398 .
+gnr:192950 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Kenya" ;  gistgeo:formalName "Republic of Kenya" ; gistgeo:iso3166Code "KE" ; gistgeo:iso3166Number 404 .
+gnr:4030945 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Kiribati" ;  gistgeo:formalName "Republic of Kiribati" ; gistgeo:iso3166Code "KI" ; gistgeo:iso3166Number 296 .
+gnr:285570 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Kuwait" ;  gistgeo:formalName "State of Kuwait" ; gistgeo:iso3166Code "KW" ; gistgeo:iso3166Number 414 .
+gnr:1527747 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Kyrgyzstan" ;  gistgeo:formalName "Kyrgyz Republic" ; gistgeo:iso3166Code "KG" ; gistgeo:iso3166Number 417 .
+gnr:1655842 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Laos" ;  gistgeo:formalName "Lao People's Democratic Republic" ; gistgeo:iso3166Code "LA" ; gistgeo:iso3166Number 418 .
+gnr:458258 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Latvia" ;  gistgeo:formalName "Republic of Latvia" ; gistgeo:iso3166Code "LV" ; gistgeo:iso3166Number 428 .
+gnr:272103 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Lebanon" ;  gistgeo:formalName "Lebanese Republic" ; gistgeo:iso3166Code "LB" ; gistgeo:iso3166Number 422 .
+gnr:932692 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Lesotho" ;  gistgeo:formalName "Kingdom of Lesotho" ; gistgeo:iso3166Code "LS" ; gistgeo:iso3166Number 426 .
+gnr:2275384 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Liberia" ;  gistgeo:formalName "Republic of Liberia" ; gistgeo:iso3166Code "LR" ; gistgeo:iso3166Number 430 .
+gnr:2215636 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Libya" ;  gistgeo:formalName "Libya" ; gistgeo:iso3166Code "LY" ; gistgeo:iso3166Number 434 .
+gnr:3042058 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Liechtenstein" ;  gistgeo:formalName "Principality of Liechtenstein" ; gistgeo:iso3166Code "LI" ; gistgeo:iso3166Number 438 .
+gnr:597427 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Lithuania" ;  gistgeo:formalName "Republic of Lithuania" ; gistgeo:iso3166Code "LT" ; gistgeo:iso3166Number 440 .
+gnr:2960313 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Luxembourg" ;  gistgeo:formalName "Grand Duchy of Luxembourg" ; gistgeo:iso3166Code "LU" ; gistgeo:iso3166Number 442 .
+gnr:718075 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Macedonia" ;  gistgeo:formalName "Republic of Macedonia" ; gistgeo:iso3166Code "MK" ; gistgeo:iso3166Number 807 .
+gnr:1062947 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Madagascar" ;  gistgeo:formalName "Republic of Madagascar" ; gistgeo:iso3166Code "MG" ; gistgeo:iso3166Number 450 .
+gnr:927384 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Malawi" ;  gistgeo:formalName "Republic of Malawi" ; gistgeo:iso3166Code "MW" ; gistgeo:iso3166Number 454 .
+gnr:1733045 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Malaysia" ;  gistgeo:formalName "Malaysia" ; gistgeo:iso3166Code "MY" ; gistgeo:iso3166Number 458 .
+gnr:1282028 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Maldives" ;  gistgeo:formalName "Republic of Maldives" ; gistgeo:iso3166Code "MV" ; gistgeo:iso3166Number 462 .
+gnr:2453866 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Mali" ;  gistgeo:formalName "Republic of Mali" ; gistgeo:iso3166Code "ML" ; gistgeo:iso3166Number 466 .
+gnr:2562770 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Malta" ;  gistgeo:formalName "Republic of Malta" ; gistgeo:iso3166Code "MT" ; gistgeo:iso3166Number 470 .
+gnr:2080185 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Marshall Islands" ;  gistgeo:formalName "Republic of the Marshall Islands" ; gistgeo:iso3166Code "MH" ; gistgeo:iso3166Number 584 .
+gnr:2378080 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Mauritania" ;  gistgeo:formalName "Islamic Republic of Mauritania" ; gistgeo:iso3166Code "MR" ; gistgeo:iso3166Number 478 .
+gnr:934292 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Mauritius" ;  gistgeo:formalName "Republic of Mauritius" ; gistgeo:iso3166Code "MU" ; gistgeo:iso3166Number 480 .
+gnr:3996063 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Mexico" ;  gistgeo:formalName "United Mexican States" ; gistgeo:iso3166Code "MX" ; gistgeo:iso3166Number 484 .
+gnr:2081918 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Micronesia" ;  gistgeo:formalName "Federated States of Micronesia" ; gistgeo:iso3166Code "FM" ; gistgeo:iso3166Number 583 .
+gnr:617790 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Moldova" ;  gistgeo:formalName "Republic of Moldova" ; gistgeo:iso3166Code "MD" ; gistgeo:iso3166Number 498 .
+gnr:2993457 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Monaco" ;  gistgeo:formalName "Principality of Monaco" ; gistgeo:iso3166Code "MC" ; gistgeo:iso3166Number 492 .
+gnr:2029969 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Mongolia" ;  gistgeo:formalName "Mongolia" ; gistgeo:iso3166Code "MN" ; gistgeo:iso3166Number 496 .
+gnr:3194884 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Montenegro" ;  gistgeo:formalName "Montenegro" ; gistgeo:iso3166Code "ME" ; gistgeo:iso3166Number 499 .
+gnr:2542007 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Morocco" ;  gistgeo:formalName "Kingdom of Morocco" ; gistgeo:iso3166Code "MA" ; gistgeo:iso3166Number 504 .
+gnr:1036973 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Mozambique" ;  gistgeo:formalName "Republic of Mozambique" ; gistgeo:iso3166Code "MZ" ; gistgeo:iso3166Number 508 .
+gnr:1327865 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Myanmar" ;  gistgeo:formalName "Myanmar" ; gistgeo:iso3166Code "MM" ; gistgeo:iso3166Number 104 .
+gnr:3355338 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Namibia" ;  gistgeo:formalName "Republic of Namibia" ; gistgeo:iso3166Code "NA" ; gistgeo:iso3166Number 516 .
+gnr:2110425 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Nauru" ;  gistgeo:formalName "Republic of Nauru" ; gistgeo:iso3166Code "NR" ; gistgeo:iso3166Number 520 .
+gnr:1282988 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Nepal" ;  gistgeo:formalName "Federal Democratic Republic of Nepal" ; gistgeo:iso3166Code "NP" ; gistgeo:iso3166Number 524 .
+gnr:2750405 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Netherlands" ;  gistgeo:formalName "Kingdom of the Netherlands" ; gistgeo:iso3166Code "NL" ; gistgeo:iso3166Number 528 .
+gnr:2186224 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "New Zealand" ;  gistgeo:formalName "New Zealand" ; gistgeo:iso3166Code "NZ" ; gistgeo:iso3166Number 554 .
+gnr:3617476 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Nicaragua" ;  gistgeo:formalName "Republic of Nicaragua" ; gistgeo:iso3166Code "NI" ; gistgeo:iso3166Number 558 .
+gnr:2440476 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Niger" ;  gistgeo:formalName "Republic of Niger" ; gistgeo:iso3166Code "NE" ; gistgeo:iso3166Number 562 .
+gnr:2328926 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Nigeria" ;  gistgeo:formalName "Federal Republic of Nigeria" ; gistgeo:iso3166Code "NG" ; gistgeo:iso3166Number 566 .
+gnr:1873107 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Korea, North" ;  gistgeo:formalName "Democratic People's Republic of Korea" ; gistgeo:iso3166Code "KP" ; gistgeo:iso3166Number 408 .
+gnr:3144096 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Norway" ;  gistgeo:formalName "Kingdom of Norway" ; gistgeo:iso3166Code "NO" ; gistgeo:iso3166Number 578 .
+gnr:286963 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Oman" ;  gistgeo:formalName "Sultanate of Oman" ; gistgeo:iso3166Code "OM" ; gistgeo:iso3166Number 512 .
+gnr:1168579 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Pakistan" ;  gistgeo:formalName "Islamic Republic of Pakistan" ; gistgeo:iso3166Code "PK" ; gistgeo:iso3166Number 586 .
+gnr:1559582 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Palau" ;  gistgeo:formalName "Republic of Palau" ; gistgeo:iso3166Code "PW" ; gistgeo:iso3166Number 585 .
+gnr:6254930 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Palestine" ;  gistgeo:formalName "State of Palestine" ; gistgeo:iso3166Code "PS" ; gistgeo:iso3166Number 275 .
+gnr:3703430 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Panama" ;  gistgeo:formalName "Republic of Panama" ; gistgeo:iso3166Code "PA" ; gistgeo:iso3166Number 591 .
+gnr:2088628 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Papua New Guinea" ;  gistgeo:formalName "Independent State of Papua New Guinea" ; gistgeo:iso3166Code "PG" ; gistgeo:iso3166Number 598 .
+gnr:3437598 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Paraguay" ;  gistgeo:formalName "Republic of Paraguay" ; gistgeo:iso3166Code "PY" ; gistgeo:iso3166Number 600 .
+gnr:3932488 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Peru" ;  gistgeo:formalName "Republic of Peru" ; gistgeo:iso3166Code "PE" ; gistgeo:iso3166Number 604 .
+gnr:1694008 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Philippines" ;  gistgeo:formalName "Republic of the Philippines" ; gistgeo:iso3166Code "PH" ; gistgeo:iso3166Number 608 .
+gnr:798544 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Poland" ;  gistgeo:formalName "Republic of Poland" ; gistgeo:iso3166Code "PL" ; gistgeo:iso3166Number 616 .
+gnr:2264397 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Portugal" ;  gistgeo:formalName "Portuguese Republic" ; gistgeo:iso3166Code "PT" ; gistgeo:iso3166Number 620 .
+gnr:289688 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Qatar" ;  gistgeo:formalName "State of Qatar" ; gistgeo:iso3166Code "QA" ; gistgeo:iso3166Number 634 .
+gnr:798549 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Romania" ;  gistgeo:formalName "Romania" ; gistgeo:iso3166Code "RO" ; gistgeo:iso3166Number 642 .
+gnr:2017370 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Russia" ;  gistgeo:formalName "Russian Federation" ; gistgeo:iso3166Code "RU" ; gistgeo:iso3166Number 643 .
+gnr:49518 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Rwanda" ;  gistgeo:formalName "Republic of Rwanda" ; gistgeo:iso3166Code "RW" ; gistgeo:iso3166Number 646 .
+gnr:3575174 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Saint Kitts and Nevis" ;  gistgeo:formalName "Federation of Saint Kitts and Nevis" ; gistgeo:iso3166Code "KN" ; gistgeo:iso3166Number 659 .
+gnr:3576468 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Saint Lucia" ;  gistgeo:formalName "Saint Lucia" ; gistgeo:iso3166Code "LC" ; gistgeo:iso3166Number 662 .
+gnr:3577815 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Saint Vincent and the Grenadines" ;  gistgeo:formalName "Saint Vincent and the Grenadines" ; gistgeo:iso3166Code "VC" ; gistgeo:iso3166Number 670 .
+gnr:4034894 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Samoa" ;  gistgeo:formalName "Independent State of Samoa" ; gistgeo:iso3166Code "WS" ; gistgeo:iso3166Number 882 .
+gnr:3168068 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "San Marino" ;  gistgeo:formalName "Republic of San Marino" ; gistgeo:iso3166Code "SM" ; gistgeo:iso3166Number 674 .
+gnr:2410758 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Sao Tome and Principe" ;  gistgeo:formalName "Democratic Republic of Sao Tome and Principe" ; gistgeo:iso3166Code "ST" ; gistgeo:iso3166Number 678 .
+gnr:102358 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Saudi Arabia" ;  gistgeo:formalName "Kingdom of Saudi Arabia" ; gistgeo:iso3166Code "SA" ; gistgeo:iso3166Number 682 .
+gnr:2245662 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Senegal" ;  gistgeo:formalName "Republic of Senegal" ; gistgeo:iso3166Code "SN" ; gistgeo:iso3166Number 686 .
+gnr:6290252 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Serbia" ;  gistgeo:formalName "Republic of Serbia" ; gistgeo:iso3166Code "RS" ; gistgeo:iso3166Number 688 .
+gnr:241170 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Seychelles" ;  gistgeo:formalName "Republic of Seychelles" ; gistgeo:iso3166Code "SC" ; gistgeo:iso3166Number 690 .
+gnr:2403846 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Sierra Leone" ;  gistgeo:formalName "Republic of Sierra Leone" ; gistgeo:iso3166Code "SL" ; gistgeo:iso3166Number 694 .
+gnr:1880251 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Singapore" ;  gistgeo:formalName "Republic of Singapore" ; gistgeo:iso3166Code "SG" ; gistgeo:iso3166Number 702 .
+gnr:3057568 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Slovakia" ;  gistgeo:formalName "Slovak Republic" ; gistgeo:iso3166Code "SK" ; gistgeo:iso3166Number 703 .
+gnr:3190538 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Slovenia" ;  gistgeo:formalName "Republic of Slovenia" ; gistgeo:iso3166Code "SI" ; gistgeo:iso3166Number 705 .
+gnr:2103350 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Solomon Islands" ;  gistgeo:formalName "Solomon Islands" ; gistgeo:iso3166Code "SB" ; gistgeo:iso3166Number 90 .
+gnr:51537 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Somalia" ;  gistgeo:formalName "Federal Republic of Somalia" ; gistgeo:iso3166Code "SO" ; gistgeo:iso3166Number 706 .
+gnr:953987 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "South Africa" ;  gistgeo:formalName "Republic of South Africa" ; gistgeo:iso3166Code "ZA" ; gistgeo:iso3166Number 710 .
+gnr:1835841 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Korea, South" ;  gistgeo:formalName "Republic of Korea" ; gistgeo:iso3166Code "KR" ; gistgeo:iso3166Number 410 .
+gnr:7909807 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "South Sudan" ;  gistgeo:formalName "Republic of South Sudan" ; gistgeo:iso3166Code "SS" ; gistgeo:iso3166Number 728 .
+gnr:2510769 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Spain" ;  gistgeo:formalName "Kingdom of Spain" ; gistgeo:iso3166Code "ES" ; gistgeo:iso3166Number 724 .
+gnr:1227603 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Sri Lanka" ;  gistgeo:formalName "Democratic Socialist Republic of Sri Lanka" ; gistgeo:iso3166Code "LK" ; gistgeo:iso3166Number 144 .
+gnr:366755 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Sudan" ;  gistgeo:formalName "Republic of the Sudan" ; gistgeo:iso3166Code "SD" ; gistgeo:iso3166Number 729 .
+gnr:3382998 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Suriname" ;  gistgeo:formalName "Republic of Suriname" ; gistgeo:iso3166Code "SR" ; gistgeo:iso3166Number 740 .
+gnr:934841 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Swaziland" ;  gistgeo:formalName "Kingdom of Swaziland" ; gistgeo:iso3166Code "SZ" ; gistgeo:iso3166Number 748 .
+gnr:2661886 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Sweden" ;  gistgeo:formalName "Kingdom of Sweden" ; gistgeo:iso3166Code "SE" ; gistgeo:iso3166Number 752 .
+gnr:2658434 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Switzerland" ;  gistgeo:formalName "Swiss Confederation" ; gistgeo:iso3166Code "CH" ; gistgeo:iso3166Number 756 .
+gnr:163843 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Syria" ;  gistgeo:formalName "Syrian Arab Republic" ; gistgeo:iso3166Code "SY" ; gistgeo:iso3166Number 760 .
+gnr:1220409 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Tajikistan" ;  gistgeo:formalName "Republic of Tajikistan" ; gistgeo:iso3166Code "TJ" ; gistgeo:iso3166Number 762 .
+gnr:149590 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Tanzania" ;  gistgeo:formalName "United Republic of Tanzania" ; gistgeo:iso3166Code "TZ" ; gistgeo:iso3166Number 834 .
+gnr:1605651 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Thailand" ;  gistgeo:formalName "Kingdom of Thailand" ; gistgeo:iso3166Code "TH" ; gistgeo:iso3166Number 764 .
+gnr:1966436 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Timor-Leste" ;  gistgeo:formalName "Democratic Republic of Timor-Leste" ; gistgeo:iso3166Code "TL" ; gistgeo:iso3166Number 626 .
+gnr:2363686 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Togo" ;  gistgeo:formalName "Togolese Republic" ; gistgeo:iso3166Code "TG" ; gistgeo:iso3166Number 768 .
+gnr:4032283 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Tonga" ;  gistgeo:formalName "Kingdom of Tonga" ; gistgeo:iso3166Code "TO" ; gistgeo:iso3166Number 776 .
+gnr:3573591 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Trinidad and Tobago" ;  gistgeo:formalName "Republic of Trinidad and Tobago" ; gistgeo:iso3166Code "TT" ; gistgeo:iso3166Number 780 .
+gnr:2464461 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Tunisia" ;  gistgeo:formalName "Republic of Tunisia" ; gistgeo:iso3166Code "TN" ; gistgeo:iso3166Number 788 .
+gnr:298795 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Turkey" ;  gistgeo:formalName "Republic of Turkey" ; gistgeo:iso3166Code "TR" ; gistgeo:iso3166Number 792 .
+gnr:1218197 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Turkmenistan" ;  gistgeo:formalName "Turkmenistan" ; gistgeo:iso3166Code "TM" ; gistgeo:iso3166Number 795 .
+gnr:2110297 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Tuvalu" ;  gistgeo:formalName "Tuvalu" ; gistgeo:iso3166Code "TV" ; gistgeo:iso3166Number 798 .
+gnr:226074 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Uganda" ;  gistgeo:formalName "Republic of Uganda" ; gistgeo:iso3166Code "UG" ; gistgeo:iso3166Number 800 .
+gnr:690791 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Ukraine" ;  gistgeo:formalName "Ukraine" ; gistgeo:iso3166Code "UA" ; gistgeo:iso3166Number 804 .
+gnr:290557 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "United Arab Emirates" ;  gistgeo:formalName "United Arab Emirates" ; gistgeo:iso3166Code "AE" ; gistgeo:iso3166Number 784 .
+gnr:2635167 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "United Kingdom" ;  gistgeo:formalName "United Kingdom of Great Britain and Northern Ireland" ; gistgeo:iso3166Code "GB" ; gistgeo:iso3166Number 826 .
+gnr:6252001 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "United States" ;  gistgeo:formalName "United States of America" ; gistgeo:iso3166Code "US" ; gistgeo:iso3166Number 840 .
+gnr:3439705 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Uruguay" ;  gistgeo:formalName "Oriental Republic of Uruguay" ; gistgeo:iso3166Code "UY" ; gistgeo:iso3166Number 858 .
+gnr:1512440 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Uzbekistan" ;  gistgeo:formalName "Republic of Uzbekistan" ; gistgeo:iso3166Code "UZ" ; gistgeo:iso3166Number 860 .
+gnr:2134431 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Vanuatu" ;  gistgeo:formalName "Republic of Vanuatu" ; gistgeo:iso3166Code "VU" ; gistgeo:iso3166Number 548 .
+gnr:3625428 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Venezuela" ;  gistgeo:formalName "Bolivarian Republic of Venezuela" ; gistgeo:iso3166Code "VE" ; gistgeo:iso3166Number 862 .
+gnr:1562822 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Vietnam" ;  gistgeo:formalName "Socialist Republic of Vietnam" ; gistgeo:iso3166Code "VN" ; gistgeo:iso3166Number 704 .
+gnr:69543 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Yemen" ;  gistgeo:formalName "Republic of Yemen" ; gistgeo:iso3166Code "YE" ; gistgeo:iso3166Number 887 .
+gnr:895949 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Zambia" ;  gistgeo:formalName "Republic of Zambia" ; gistgeo:iso3166Code "ZM" ; gistgeo:iso3166Number 894 .
+gnr:878675 rdf:type owl:NamedIndividual, gistgeo:GeopoliticalRegion ; gist:categorizedBy gistgeo3:_country, gn:A.PCLI ; gist:name "Zimbabwe" ;  gistgeo:formalName "Republic of Zimbabwe" ; gistgeo:iso3166Code "ZW" ; gistgeo:iso3166Number 716 .
+#
+gnr:1149361 gist:geoDirectlyContainedIn gistgeo3:_SouthAsia .
+gnr:783754 gist:geoDirectlyContainedIn gistgeo3:_Balkans, gistgeo3:_SoutheasternEurope .
+gnr:2589581 gist:geoDirectlyContainedIn gistgeo3:_NorthAfrica .
+gnr:3041565 gist:geoDirectlyContainedIn gistgeo3:_Iberia, gistgeo3:_SouthernEurope .
+gnr:3351879 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:3576396 gist:geoDirectlyContainedIn gistgeo3:_Caribbean .
+gnr:3865483 gist:geoDirectlyContainedIn gistgeo3:_SouthAmerica .
+gnr:174982 gist:geoDirectlyContainedIn gistgeo3:_MiddleEast, gistgeo3:_Caucasus .
+gnr:2077456 gist:geoDirectlyContainedIn gistgeo3:_Australia-Oceania .
+gnr:2782113 gist:geoDirectlyContainedIn gistgeo3:_CentralEurope, gistgeo3:_WesternEurope .
+gnr:587116 gist:geoDirectlyContainedIn gistgeo3:_MiddleEast, gistgeo3:_Caucasus .
+gnr:3572887 gist:geoDirectlyContainedIn gistgeo3:_Caribbean .
+gnr:290291 gist:geoDirectlyContainedIn gistgeo3:_MiddleEast .
+gnr:1210997 gist:geoDirectlyContainedIn gistgeo3:_SouthAsia .
+gnr:3374084 gist:geoDirectlyContainedIn gistgeo3:_Caribbean .
+gnr:630336 gist:geoDirectlyContainedIn gistgeo3:_EasternEurope .
+gnr:2802361 gist:geoDirectlyContainedIn gistgeo3:_NorthernEurope, gistgeo3:_WesternEurope .
+gnr:3582678 gist:geoDirectlyContainedIn gistgeo3:_CentralAmerica .
+gnr:2395170 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:1252634 gist:geoDirectlyContainedIn gistgeo3:_SouthAsia .
+gnr:3923057 gist:geoDirectlyContainedIn gistgeo3:_SouthAmerica .
+gnr:3277605 gist:geoDirectlyContainedIn gistgeo3:_Balkans, gistgeo3:_SoutheasternEurope .
+gnr:933860 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:3469034 gist:geoDirectlyContainedIn gistgeo3:_SouthAmerica .
+gnr:1820814 gist:geoDirectlyContainedIn gistgeo3:_SoutheastAsia .
+gnr:732800 gist:geoDirectlyContainedIn gistgeo3:_Balkans, gistgeo3:_SoutheasternEurope .
+gnr:2361809 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:433561 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:3374766 gist:geoDirectlyContainedIn gistgeo3:_Africa .
+gnr:1831722 gist:geoDirectlyContainedIn gistgeo3:_SoutheastAsia .
+gnr:2233387 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:6251999 gist:geoDirectlyContainedIn gistgeo3:_NorthAmerica .
+gnr:239880 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:2434508 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:3895114 gist:geoDirectlyContainedIn gistgeo3:_SouthAmerica .
+gnr:1814991 gist:geoDirectlyContainedIn gistgeo3:_NorthAsia .
+gnr:3686110 gist:geoDirectlyContainedIn gistgeo3:_SouthAmerica .
+gnr:921929 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:2260494 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:203312 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:3624060 gist:geoDirectlyContainedIn gistgeo3:_CentralAmerica .
+gnr:2287781 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:3202326 gist:geoDirectlyContainedIn gistgeo3:_Balkans, gistgeo3:_SoutheasternEurope .
+gnr:3562981 gist:geoDirectlyContainedIn gistgeo3:_Caribbean .
+gnr:146669 gist:geoDirectlyContainedIn gistgeo3:_SoutheasternEurope, gistgeo3:_SouthernEurope .
+gnr:3077311 gist:geoDirectlyContainedIn gistgeo3:_CentralEurope, gistgeo3:_EasternEurope .
+gnr:2623032 gist:geoDirectlyContainedIn gistgeo3:_NordicCountries, gistgeo3:_NorthernEurope, gistgeo3:_Scandinavia, gistgeo3:_WesternEurope .
+gnr:223816 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:3575830 gist:geoDirectlyContainedIn gistgeo3:_Caribbean .
+gnr:3508796 gist:geoDirectlyContainedIn gistgeo3:_Caribbean .
+gnr:3658394 gist:geoDirectlyContainedIn gistgeo3:_SouthAmerica .
+gnr:357994 gist:geoDirectlyContainedIn gistgeo3:_NorthAfrica .
+gnr:3585968 gist:geoDirectlyContainedIn gistgeo3:_CentralAmerica .
+gnr:2309096 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:338010 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:453733 gist:geoDirectlyContainedIn gistgeo3:_Baltics, gistgeo3:_EasternEurope, gistgeo3:_NorthernEurope .
+gnr:337996 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:2205218 gist:geoDirectlyContainedIn gistgeo3:_PacificIslands .
+gnr:660013 gist:geoDirectlyContainedIn gistgeo3:_NordicCountries, gistgeo3:_NorthernEurope, gistgeo3:_WesternEurope .
+gnr:3017382 gist:geoDirectlyContainedIn gistgeo3:_NorthernEurope, gistgeo3:_SouthernEurope, gistgeo3:_WesternEurope .
+gnr:2400553 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:2413451 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:614540 gist:geoDirectlyContainedIn gistgeo3:_MiddleEast, gistgeo3:_Caucasus .
+gnr:2921044 gist:geoDirectlyContainedIn gistgeo3:_NorthernEurope, gistgeo3:_WesternEurope .
+gnr:2300660 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:390903 gist:geoDirectlyContainedIn gistgeo3:_Balkans, gistgeo3:_SoutheasternEurope, gistgeo3:_SouthernEurope, gistgeo3:_WesternEurope .
+gnr:3580239 gist:geoDirectlyContainedIn gistgeo3:_Caribbean .
+gnr:3595528 gist:geoDirectlyContainedIn gistgeo3:_CentralAmerica .
+gnr:2420477 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:2372248 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:3378535 gist:geoDirectlyContainedIn gistgeo3:_Caribbean, gistgeo3:_SouthAmerica .
+gnr:3723988 gist:geoDirectlyContainedIn gistgeo3:_Caribbean .
+gnr:3164670 gist:geoDirectlyContainedIn gistgeo3:_SouthernEurope .
+gnr:3608932 gist:geoDirectlyContainedIn gistgeo3:_CentralAmerica .
+gnr:719819 gist:geoDirectlyContainedIn gistgeo3:_CentralEurope, gistgeo3:_EasternEurope .
+gnr:2629691 gist:geoDirectlyContainedIn gistgeo3:_NordicCountries, gistgeo3:_NorthernEurope, gistgeo3:_WesternEurope .
+gnr:1269750 gist:geoDirectlyContainedIn gistgeo3:_SouthAsia .
+gnr:1643084 gist:geoDirectlyContainedIn gistgeo3:_SoutheastAsia .
+gnr:130758 gist:geoDirectlyContainedIn gistgeo3:_MiddleEast .
+gnr:99237 gist:geoDirectlyContainedIn gistgeo3:_MiddleEast .
+gnr:2963597 gist:geoDirectlyContainedIn gistgeo3:_NorthernEurope, gistgeo3:_WesternEurope .
+gnr:294640 gist:geoDirectlyContainedIn gistgeo3:_MiddleEast .
+gnr:3175395 gist:geoDirectlyContainedIn gistgeo3:_SouthernEurope, gistgeo3:_WesternEurope .
+gnr:3489940 gist:geoDirectlyContainedIn gistgeo3:_Caribbean .
+gnr:1861060 gist:geoDirectlyContainedIn gistgeo3:_NorthAsia .
+gnr:248816 gist:geoDirectlyContainedIn gistgeo3:_MiddleEast .
+gnr:1522867 gist:geoDirectlyContainedIn gistgeo3:_CentralAsia .
+gnr:192950 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:4030945 gist:geoDirectlyContainedIn gistgeo3:_PacificIslands .
+gnr:285570 gist:geoDirectlyContainedIn gistgeo3:_MiddleEast .
+gnr:1527747 gist:geoDirectlyContainedIn gistgeo3:_CentralAsia .
+gnr:1655842 gist:geoDirectlyContainedIn gistgeo3:_SoutheastAsia .
+gnr:458258 gist:geoDirectlyContainedIn gistgeo3:_Baltics, gistgeo3:_EasternEurope, gistgeo3:_NorthernEurope .
+gnr:272103 gist:geoDirectlyContainedIn gistgeo3:_MiddleEast .
+gnr:932692 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:2275384 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:2215636 gist:geoDirectlyContainedIn gistgeo3:_NorthAfrica .
+gnr:3042058 gist:geoDirectlyContainedIn gistgeo3:_NorthernEurope, gistgeo3:_WesternEurope .
+gnr:597427 gist:geoDirectlyContainedIn gistgeo3:_Baltics, gistgeo3:_EasternEurope, gistgeo3:_NorthernEurope .
+gnr:2960313 gist:geoDirectlyContainedIn gistgeo3:_NorthernEurope, gistgeo3:_WesternEurope .
+gnr:718075 gist:geoDirectlyContainedIn gistgeo3:_Balkans, gistgeo3:_SoutheasternEurope .
+gnr:1062947 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:927384 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:1733045 gist:geoDirectlyContainedIn gistgeo3:_EastAndSoutheastAsia .
+gnr:1282028 gist:geoDirectlyContainedIn gistgeo3:_SouthAsia .
+gnr:2453866 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:2562770 gist:geoDirectlyContainedIn gistgeo3:_SouthernEurope, gistgeo3:_WesternEurope .
+gnr:2080185 gist:geoDirectlyContainedIn gistgeo3:_PacificIslands .
+gnr:2378080 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:934292 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:3996063 gist:geoDirectlyContainedIn gistgeo3:_NorthAmerica .
+gnr:2081918 gist:geoDirectlyContainedIn gistgeo3:_PacificIslands .
+gnr:617790 gist:geoDirectlyContainedIn gistgeo3:_EasternEurope, gistgeo3:_SoutheasternEurope .
+gnr:2993457 gist:geoDirectlyContainedIn gistgeo3:_SouthernEurope, gistgeo3:_WesternEurope .
+gnr:2029969 gist:geoDirectlyContainedIn gistgeo3:_NorthAsia .
+gnr:3194884 gist:geoDirectlyContainedIn gistgeo3:_Balkans, gistgeo3:_EasternEurope, gistgeo3:_SoutheasternEurope .
+gnr:2542007 gist:geoDirectlyContainedIn gistgeo3:_NorthAfrica .
+gnr:1036973 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:1327865 gist:geoDirectlyContainedIn gistgeo3:_SoutheastAsia .
+gnr:3355338 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:2110425 gist:geoDirectlyContainedIn gistgeo3:_PacificIslands .
+gnr:1282988 gist:geoDirectlyContainedIn gistgeo3:_SouthAsia .
+gnr:2750405 gist:geoDirectlyContainedIn gistgeo3:_NorthernEurope, gistgeo3:_WesternEurope .
+gnr:2186224 gist:geoDirectlyContainedIn gistgeo3:_Australia-Oceania .
+gnr:3617476 gist:geoDirectlyContainedIn gistgeo3:_CentralAmerica .
+gnr:2440476 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:2328926 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:1873107 gist:geoDirectlyContainedIn gistgeo3:_NorthAsia .
+gnr:3144096 gist:geoDirectlyContainedIn gistgeo3:_NordicCountries, gistgeo3:_NorthernEurope, gistgeo3:_Scandinavia, gistgeo3:_WesternEurope .
+gnr:286963 gist:geoDirectlyContainedIn gistgeo3:_MiddleEast .
+gnr:1168579 gist:geoDirectlyContainedIn gistgeo3:_SouthAsia .
+gnr:1559582 gist:geoDirectlyContainedIn gistgeo3:_PacificIslands .
+gnr:6254930 gist:geoDirectlyContainedIn gistgeo3:_MiddleEast .
+gnr:3703430 gist:geoDirectlyContainedIn gistgeo3:_CentralAmerica .
+gnr:2088628 gist:geoDirectlyContainedIn gistgeo3:_EastAndSoutheastAsia, gistgeo3:_Australia-Oceania .
+gnr:3437598 gist:geoDirectlyContainedIn gistgeo3:_SouthAmerica .
+gnr:3932488 gist:geoDirectlyContainedIn gistgeo3:_SouthAmerica .
+gnr:1694008 gist:geoDirectlyContainedIn gistgeo3:_SoutheastAsia .
+gnr:798544 gist:geoDirectlyContainedIn gistgeo3:_CentralEurope, gistgeo3:_EasternEurope, gistgeo3:_NorthernEurope .
+gnr:2264397 gist:geoDirectlyContainedIn gistgeo3:_Iberia, gistgeo3:_SouthernEurope, gistgeo3:_WesternEurope .
+gnr:289688 gist:geoDirectlyContainedIn gistgeo3:_MiddleEast .
+gnr:798549 gist:geoDirectlyContainedIn gistgeo3:_EasternEurope, gistgeo3:_SoutheasternEurope .
+gnr:2017370 gist:geoDirectlyContainedIn gistgeo3:_CentralAsia, gistgeo3:_EasternEurope .
+gnr:49518 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:3575174 gist:geoDirectlyContainedIn gistgeo3:_Caribbean .
+gnr:3576468 gist:geoDirectlyContainedIn gistgeo3:_Caribbean .
+gnr:3577815 gist:geoDirectlyContainedIn gistgeo3:_Caribbean .
+gnr:4034894 gist:geoDirectlyContainedIn gistgeo3:_PacificIslands .
+gnr:3168068 gist:geoDirectlyContainedIn gistgeo3:_SouthernEurope, gistgeo3:_WesternEurope .
+gnr:2410758 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:102358 gist:geoDirectlyContainedIn gistgeo3:_MiddleEast .
+gnr:2245662 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:6290252 gist:geoDirectlyContainedIn gistgeo3:_Balkans, gistgeo3:_SoutheasternEurope .
+gnr:241170 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:2403846 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:1880251 gist:geoDirectlyContainedIn gistgeo3:_SoutheastAsia .
+gnr:3057568 gist:geoDirectlyContainedIn gistgeo3:_CentralEurope, gistgeo3:_EasternEurope .
+gnr:3190538 gist:geoDirectlyContainedIn gistgeo3:_EasternEurope, gistgeo3:_SoutheasternEurope .
+gnr:2103350 gist:geoDirectlyContainedIn gistgeo3:_PacificIslands .
+gnr:51537 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:953987 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:1835841 gist:geoDirectlyContainedIn gistgeo3:_NorthAsia .
+gnr:7909807 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:2510769 gist:geoDirectlyContainedIn gistgeo3:_Iberia, gistgeo3:_SouthernEurope, gistgeo3:_WesternEurope .
+gnr:1227603 gist:geoDirectlyContainedIn gistgeo3:_SouthAsia .
+gnr:366755 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:3382998 gist:geoDirectlyContainedIn gistgeo3:_SouthAmerica .
+gnr:934841 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:2661886 gist:geoDirectlyContainedIn gistgeo3:_NordicCountries, gistgeo3:_NorthernEurope, gistgeo3:_Scandinavia, gistgeo3:_WesternEurope .
+gnr:2658434 gist:geoDirectlyContainedIn gistgeo3:_CentralEurope, gistgeo3:_WesternEurope .
+gnr:163843 gist:geoDirectlyContainedIn gistgeo3:_MiddleEast .
+gnr:1220409 gist:geoDirectlyContainedIn gistgeo3:_CentralAsia .
+gnr:149590 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:1605651 gist:geoDirectlyContainedIn gistgeo3:_EastAndSoutheastAsia .
+gnr:1966436 gist:geoDirectlyContainedIn gistgeo3:_SoutheastAsia .
+gnr:2363686 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:4032283 gist:geoDirectlyContainedIn gistgeo3:_PacificIslands .
+gnr:3573591 gist:geoDirectlyContainedIn gistgeo3:_Caribbean .
+gnr:2464461 gist:geoDirectlyContainedIn gistgeo3:_NorthAfrica .
+gnr:298795 gist:geoDirectlyContainedIn gistgeo3:_MiddleEast, gistgeo3:_SoutheasternEurope .
+gnr:1218197 gist:geoDirectlyContainedIn gistgeo3:_CentralAsia .
+gnr:2110297 gist:geoDirectlyContainedIn gistgeo3:_PacificIslands .
+gnr:226074 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:690791 gist:geoDirectlyContainedIn gistgeo3:_EasternEurope .
+gnr:290557 gist:geoDirectlyContainedIn gistgeo3:_MiddleEast .
+gnr:2635167 gist:geoDirectlyContainedIn gistgeo3:_NorthernEurope, gistgeo3:_WesternEurope .
+gnr:6252001 gist:geoDirectlyContainedIn gistgeo3:_NorthAmerica .
+gnr:3439705 gist:geoDirectlyContainedIn gistgeo3:_SouthAmerica .
+gnr:1512440 gist:geoDirectlyContainedIn gistgeo3:_CentralAsia .
+gnr:2134431 gist:geoDirectlyContainedIn gistgeo3:_PacificIslands .
+gnr:3625428 gist:geoDirectlyContainedIn gistgeo3:_SouthAmerica .
+gnr:1562822 gist:geoDirectlyContainedIn gistgeo3:_SoutheastAsia .
+gnr:69543 gist:geoDirectlyContainedIn gistgeo3:_MiddleEast .
+gnr:895949 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+gnr:878675 gist:geoDirectlyContainedIn gistgeo3:_SubSaharanAfrica .
+
+# 
+# Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi

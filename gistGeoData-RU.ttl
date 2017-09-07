@@ -1,0 +1,1192 @@
+@prefix : <http://ontologies.semanticarts.com/o/gistgeodata-RU#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix gnr: <http://sws.geonames.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix gist: <http://ontologies.semanticarts.com/gist#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix gistgeo: <http://ontologies.semanticarts.com/gistGeo#> .
+@prefix gistgeo3: <http://triples.semanticarts.com/gistGeo#> .
+
+<http://ontologies.semanticarts.com/o/gistgeodata-RU> a owl:Ontology ;
+	owl:versionIRI <http://ontologies.semanticarts.com/o/gistgeodata-RU> ;
+	owl:imports <http://ontologies.semanticarts.com/o/gistGeoCore0.1> ;
+	rdfs:comment "Contains geographical data about Russia. (gnr:2017370)" .
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://sws.geonames.org/1486209
+
+gnr:1486209 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:1490542 ;
+	gist:name "Yekaterinburg" .
+# 
+# http://sws.geonames.org/1486462
+
+gnr:1486462 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Yamalo-Nenetskiy Avtonomnyy Okrug" .
+# 
+# http://sws.geonames.org/1488747
+
+gnr:1488747 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Tyumenskaya Oblast'" .
+# 
+# http://sws.geonames.org/1488754
+
+gnr:1488754 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:1488747 ;
+	gist:name "Tyumen" .
+# 
+# http://sws.geonames.org/1488873
+
+gnr:1488873 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Respublika Tyva" .
+# 
+# http://sws.geonames.org/1489421
+
+gnr:1489421 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Tomskaya Oblast'" .
+# 
+# http://sws.geonames.org/1489425
+
+gnr:1489425 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:1489421 ;
+	gist:name "Tomsk" .
+# 
+# http://sws.geonames.org/1490542
+
+gnr:1490542 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Sverdlovskaya Oblast'" .
+# 
+# http://sws.geonames.org/1493197
+
+gnr:1493197 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:1486462 ;
+	gist:name "Salekhard" .
+# 
+# http://sws.geonames.org/1496152
+
+gnr:1496152 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Omskaya Oblast'" .
+# 
+# http://sws.geonames.org/1496153
+
+gnr:1496153 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:1496152 ;
+	gist:name "Omsk" .
+# 
+# http://sws.geonames.org/1496745
+
+gnr:1496745 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Novosibirskaya Oblast'" .
+# 
+# http://sws.geonames.org/1496747
+
+gnr:1496747 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:1496745 ;
+	gist:name "Novosibirsk" .
+# 
+# http://sws.geonames.org/1500973
+
+gnr:1500973 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:1488873 ;
+	gist:name "Kyzyl" .
+# 
+# http://sws.geonames.org/1501312
+
+gnr:1501312 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Kurganskaya Oblast'" .
+# 
+# http://sws.geonames.org/1501321
+
+gnr:1501321 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:1501312 ;
+	gist:name "Kurgan" .
+# 
+# http://sws.geonames.org/1502020
+
+gnr:1502020 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Krasnoyarskiy Kray" .
+# 
+# http://sws.geonames.org/1502026
+
+gnr:1502026 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:1502020 ;
+	gist:name "Krasnoyarsk" .
+# 
+# http://sws.geonames.org/1503772
+
+gnr:1503772 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:1503773 ;
+	gist:name "Khanty-Mansiysk" .
+# 
+# http://sws.geonames.org/1503773
+
+gnr:1503773 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Khanty-Mansiyskiy Avtonomnyy Okrug-Yugra" .
+# 
+# http://sws.geonames.org/1503834
+
+gnr:1503834 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Respublika Khakasiya" .
+# 
+# http://sws.geonames.org/1503900
+
+gnr:1503900 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Kemerovskaya Oblast'" .
+# 
+# http://sws.geonames.org/1503901
+
+gnr:1503901 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:1503900 ;
+	gist:name "Kemerovo" .
+# 
+# http://sws.geonames.org/1506271
+
+gnr:1506271 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:1506272 ;
+	gist:name "Gorno-Altaysk" .
+# 
+# http://sws.geonames.org/1506272
+
+gnr:1506272 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Respublika Altay" .
+# 
+# http://sws.geonames.org/1508290
+
+gnr:1508290 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Chelyabinskaya Oblast'" .
+# 
+# http://sws.geonames.org/1508291
+
+gnr:1508291 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:1508290 ;
+	gist:name "Chelyabinsk" .
+# 
+# http://sws.geonames.org/1510853
+
+gnr:1510853 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:1511732 ;
+	gist:name "Barnaul" .
+# 
+# http://sws.geonames.org/1511732
+
+gnr:1511732 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Altayskiy Kray" .
+# 
+# http://sws.geonames.org/1512236
+
+gnr:1512236 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:1503834 ;
+	gist:name "Abakan" .
+# 
+# http://sws.geonames.org/2013159
+
+gnr:2013159 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:2013162 ;
+	gist:name "Yakutsk" .
+# 
+# http://sws.geonames.org/2013162
+
+gnr:2013162 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Respublika Sakha (Yakutiya)" .
+# 
+# http://sws.geonames.org/2013348
+
+gnr:2013348 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:2017623 ;
+	gist:name "Vladivostok" .
+# 
+# http://sws.geonames.org/2014407
+
+gnr:2014407 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:2050915 ;
+	gist:name "Ulan-Ude" .
+# 
+# http://sws.geonames.org/2017370
+
+gnr:2017370 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_Asia , gistgeo3:_EasternEurope ;
+	gistgeo:hasCapital gnr:524901 ;
+	gist:name "Russia" ;
+	gistgeo:formalName "Russian Federation" ;
+	gistgeo:iso3166Code "RU" ;
+	gistgeo:iso3166Number "643"^^xsd:integer .
+# 
+# http://sws.geonames.org/2017623
+
+gnr:2017623 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Primorskiy Kray" .
+# 
+# http://sws.geonames.org/2022888
+
+gnr:2022888 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Khabarovskiy Kray" .
+# 
+# http://sws.geonames.org/2022890
+
+gnr:2022890 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:2022888 ;
+	gist:name "Khabarovsk" .
+# 
+# http://sws.geonames.org/2023468
+
+gnr:2023468 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Irkutskaya Oblast'" .
+# 
+# http://sws.geonames.org/2023469
+
+gnr:2023469 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:2023468 ;
+	gist:name "Irkutsk" .
+# 
+# http://sws.geonames.org/2025339
+
+gnr:2025339 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:7779061 ;
+	gist:name "Chita" .
+# 
+# http://sws.geonames.org/2026609
+
+gnr:2026609 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:2027748 ;
+	gist:name "Blagoveshchensk" .
+# 
+# http://sws.geonames.org/2026639
+
+gnr:2026639 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Yevreyskaya Avtonomnaya Oblast'" .
+# 
+# http://sws.geonames.org/2026643
+
+gnr:2026643 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:2026639 ;
+	gist:name "Birobidzhan" .
+# 
+# http://sws.geonames.org/2027748
+
+gnr:2027748 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Amurskaya Oblast'" .
+# 
+# http://sws.geonames.org/2050915
+
+gnr:2050915 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Respublika Buryatiya" .
+# 
+# http://sws.geonames.org/2119441
+
+gnr:2119441 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:2121529 ;
+	gist:name "Yuzhno-Sakhalinsk" .
+# 
+# http://sws.geonames.org/2121529
+
+gnr:2121529 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Sakhalinskaya Oblast'" .
+# 
+# http://sws.geonames.org/2122104
+
+gnr:2122104 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:2125072 ;
+	gist:name "Petropavlovsk-Kamchatsky" .
+# 
+# http://sws.geonames.org/2123627
+
+gnr:2123627 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Magadanskaya Oblast'" .
+# 
+# http://sws.geonames.org/2123628
+
+gnr:2123628 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:2123627 ;
+	gist:name "Magadan" .
+# 
+# http://sws.geonames.org/2125072
+
+gnr:2125072 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Kamtchatski Kray" .
+# 
+# http://sws.geonames.org/2126099
+
+gnr:2126099 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Chukotskiy Avtonomnyy Okrug" .
+# 
+# http://sws.geonames.org/2127202
+
+gnr:2127202 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:2126099 ;
+	gist:name "Anadyr" .
+# 
+# http://sws.geonames.org/466806
+
+gnr:466806 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:529352 ;
+	gist:name "Yoshkar-Ola" .
+# 
+# http://sws.geonames.org/468898
+
+gnr:468898 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Yaroslavskaya Oblast'" .
+# 
+# http://sws.geonames.org/468902
+
+gnr:468902 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:468898 ;
+	gist:name "Yaroslavl" .
+# 
+# http://sws.geonames.org/472039
+
+gnr:472039 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Voronezhskaya Oblast'" .
+# 
+# http://sws.geonames.org/472045
+
+gnr:472045 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:472039 ;
+	gist:name "Voronezh" .
+# 
+# http://sws.geonames.org/472454
+
+gnr:472454 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Vologodskaya Oblast'" .
+# 
+# http://sws.geonames.org/472459
+
+gnr:472459 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:472454 ;
+	gist:name "Vologda" .
+# 
+# http://sws.geonames.org/472755
+
+gnr:472755 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Volgogradskaya Oblast'" .
+# 
+# http://sws.geonames.org/472757
+
+gnr:472757 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:472755 ;
+	gist:name "Volgograd" .
+# 
+# http://sws.geonames.org/473247
+
+gnr:473247 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:826294 ;
+	gist:name "Vladimir" .
+# 
+# http://sws.geonames.org/473249
+
+gnr:473249 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:519969 ;
+	gist:name "Vladikavkaz" .
+# 
+# http://sws.geonames.org/479119
+
+gnr:479119 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Ulyanovsk Oblast" .
+# 
+# http://sws.geonames.org/479123
+
+gnr:479123 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:479119 ;
+	gist:name "Ulyanovsk" .
+# 
+# http://sws.geonames.org/479561
+
+gnr:479561 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:578853 ;
+	gist:name "Ufa" .
+# 
+# http://sws.geonames.org/479613
+
+gnr:479613 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Udmurtskaya Respublika" .
+# 
+# http://sws.geonames.org/480041
+
+gnr:480041 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Tverskaya Oblast'" .
+# 
+# http://sws.geonames.org/480060
+
+gnr:480060 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:480041 ;
+	gist:name "Tver" .
+# 
+# http://sws.geonames.org/480508
+
+gnr:480508 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Tul'skaya Oblast'" .
+# 
+# http://sws.geonames.org/480562
+
+gnr:480562 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:480508 ;
+	gist:name "Tula" .
+# 
+# http://sws.geonames.org/484048
+
+gnr:484048 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Tatarstan" .
+# 
+# http://sws.geonames.org/484638
+
+gnr:484638 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Tambovskaya Oblast'" .
+# 
+# http://sws.geonames.org/484646
+
+gnr:484646 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:484638 ;
+	gist:name "Tambov" .
+# 
+# http://sws.geonames.org/485239
+
+gnr:485239 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:545854 ;
+	gist:name "Syktyvkar" .
+# 
+# http://sws.geonames.org/487839
+
+gnr:487839 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Stavropol'skiy Kray" .
+# 
+# http://sws.geonames.org/487846
+
+gnr:487846 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:487839 ;
+	gist:name "Stavropol'" .
+# 
+# http://sws.geonames.org/491684
+
+gnr:491684 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Smolenskaya Oblast'" .
+# 
+# http://sws.geonames.org/491687
+
+gnr:491687 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:491684 ;
+	gist:name "Smolensk" .
+# 
+# http://sws.geonames.org/498671
+
+gnr:498671 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Saratovskaya Oblast'" .
+# 
+# http://sws.geonames.org/498677
+
+gnr:498677 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:498671 ;
+	gist:name "Saratov" .
+# 
+# http://sws.geonames.org/498698
+
+gnr:498698 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:525369 ;
+	gist:name "Saransk" .
+# 
+# http://sws.geonames.org/498817
+
+gnr:498817 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:536203 ;
+	gist:name "Saint Petersburg" .
+# 
+# http://sws.geonames.org/499068
+
+gnr:499068 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Samarskaya Oblast'" .
+# 
+# http://sws.geonames.org/499099
+
+gnr:499099 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:499068 ;
+	gist:name "Samara" .
+# 
+# http://sws.geonames.org/500059
+
+gnr:500059 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Ryazanskaya Oblast'" .
+# 
+# http://sws.geonames.org/500096
+
+gnr:500096 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:500059 ;
+	gist:name "Ryazan'" .
+# 
+# http://sws.geonames.org/501165
+
+gnr:501165 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Rostovskaya Oblast'" .
+# 
+# http://sws.geonames.org/501175
+
+gnr:501175 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:501165 ;
+	gist:name "Rostov-na-Donu" .
+# 
+# http://sws.geonames.org/504338
+
+gnr:504338 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Pskovskaya Oblast'" .
+# 
+# http://sws.geonames.org/504341
+
+gnr:504341 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:504338 ;
+	gist:name "Pskov" .
+# 
+# http://sws.geonames.org/509820
+
+gnr:509820 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:552548 ;
+	gist:name "Petrozavodsk" .
+# 
+# http://sws.geonames.org/511180
+
+gnr:511180 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Perm Krai" .
+# 
+# http://sws.geonames.org/511196
+
+gnr:511196 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:511180 ;
+	gist:name "Perm" .
+# 
+# http://sws.geonames.org/511555
+
+gnr:511555 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Penzenskaya Oblast'" .
+# 
+# http://sws.geonames.org/511565
+
+gnr:511565 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:511555 ;
+	gist:name "Penza" .
+# 
+# http://sws.geonames.org/514801
+
+gnr:514801 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Orlovskaya Oblast'" .
+# 
+# http://sws.geonames.org/515001
+
+gnr:515001 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Orenburgskaya Oblast'" .
+# 
+# http://sws.geonames.org/515003
+
+gnr:515003 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:515001 ;
+	gist:name "Orenburg" .
+# 
+# http://sws.geonames.org/515012
+
+gnr:515012 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:514801 ;
+	gist:name "Orel" .
+# 
+# http://sws.geonames.org/519324
+
+gnr:519324 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Novgorodskaya Oblast'" .
+# 
+# http://sws.geonames.org/519336
+
+gnr:519336 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:519324 ;
+	gist:name "Velikiy Novgorod" .
+# 
+# http://sws.geonames.org/519969
+
+gnr:519969 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "North Ossetia" .
+# 
+# http://sws.geonames.org/520555
+
+gnr:520555 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:559838 ;
+	gist:name "Nizhniy Novgorod" .
+# 
+# http://sws.geonames.org/522652
+
+gnr:522652 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Nenetskiy Avtonomnyy Okrug" .
+# 
+# http://sws.geonames.org/523392
+
+gnr:523392 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:522652 ;
+	gist:name "Nar'yan-Mar" .
+# 
+# http://sws.geonames.org/523523
+
+gnr:523523 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:554667 ;
+	gist:name "Nal'chik" .
+# 
+# http://sws.geonames.org/524304
+
+gnr:524304 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Murmanskaya Oblast'" .
+# 
+# http://sws.geonames.org/524305
+
+gnr:524305 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:524304 ;
+	gist:name "Murmansk" .
+# 
+# http://sws.geonames.org/524894
+
+gnr:524894 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Moskva" .
+# 
+# http://sws.geonames.org/524901
+
+gnr:524901 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA , gn:P.PPLC ;
+	gist:geoDirectlyContainedIn gnr:524894 ;
+	gist:name "Moscow" .
+# 
+# http://sws.geonames.org/524925
+
+gnr:524925 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Moscow Oblast" .
+# 
+# http://sws.geonames.org/525369
+
+gnr:525369 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Respublika Mordoviya" .
+# 
+# http://sws.geonames.org/528293
+
+gnr:528293 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:584222 ;
+	gist:name "Maykop" .
+# 
+# http://sws.geonames.org/529352
+
+gnr:529352 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Respublika Mariy-El" .
+# 
+# http://sws.geonames.org/532096
+
+gnr:532096 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:567293 ;
+	gist:name "Makhachkala" .
+# 
+# http://sws.geonames.org/535120
+
+gnr:535120 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Lipetskaya Oblast'" .
+# 
+# http://sws.geonames.org/535121
+
+gnr:535121 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:535120 ;
+	gist:name "Lipetsk" .
+# 
+# http://sws.geonames.org/536199
+
+gnr:536199 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Leningradskaya Oblast'" .
+# 
+# http://sws.geonames.org/536203
+
+gnr:536203 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Sankt-Peterburg" .
+# 
+# http://sws.geonames.org/538555
+
+gnr:538555 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Kurskaya Oblast'" .
+# 
+# http://sws.geonames.org/538560
+
+gnr:538560 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:538555 ;
+	gist:name "Kursk" .
+# 
+# http://sws.geonames.org/542415
+
+gnr:542415 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Krasnodarskiy Kray" .
+# 
+# http://sws.geonames.org/542420
+
+gnr:542420 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:542415 ;
+	gist:name "Krasnodar" .
+# 
+# http://sws.geonames.org/543871
+
+gnr:543871 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Kostromskaya Oblast'" .
+# 
+# http://sws.geonames.org/543878
+
+gnr:543878 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:543871 ;
+	gist:name "Kostroma" .
+# 
+# http://sws.geonames.org/545854
+
+gnr:545854 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Komi" .
+# 
+# http://sws.geonames.org/548389
+
+gnr:548389 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Kirovskaya Oblast'" .
+# 
+# http://sws.geonames.org/548408
+
+gnr:548408 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:548389 ;
+	gist:name "Kirov" .
+# 
+# http://sws.geonames.org/551487
+
+gnr:551487 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:484048 ;
+	gist:name "Kazan" .
+# 
+# http://sws.geonames.org/552548
+
+gnr:552548 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Respublika Kareliya" .
+# 
+# http://sws.geonames.org/552927
+
+gnr:552927 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Karachayevo-Cherkesiya" .
+# 
+# http://sws.geonames.org/553899
+
+gnr:553899 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Kaluzhskaya Oblast'" .
+# 
+# http://sws.geonames.org/553915
+
+gnr:553915 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:553899 ;
+	gist:name "Kaluga" .
+# 
+# http://sws.geonames.org/553972
+
+gnr:553972 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Kalmykiya" .
+# 
+# http://sws.geonames.org/554230
+
+gnr:554230 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Kaliningradskaya Oblast'" .
+# 
+# http://sws.geonames.org/554234
+
+gnr:554234 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:554230 ;
+	gist:name "Kaliningrad" .
+# 
+# http://sws.geonames.org/554667
+
+gnr:554667 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Kabardino-Balkarskaya Respublika" .
+# 
+# http://sws.geonames.org/554840
+
+gnr:554840 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:479613 ;
+	gist:name "Izhevsk" .
+# 
+# http://sws.geonames.org/555235
+
+gnr:555235 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Ivanovskaya Oblast'" .
+# 
+# http://sws.geonames.org/555312
+
+gnr:555312 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:555235 ;
+	gist:name "Ivanovo" .
+# 
+# http://sws.geonames.org/556349
+
+gnr:556349 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Respublika Ingushetiya" .
+# 
+# http://sws.geonames.org/558418
+
+gnr:558418 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:569665 ;
+	gist:name "Groznyy" .
+# 
+# http://sws.geonames.org/559838
+
+gnr:559838 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Nizhegorodskaya Oblast'" .
+# 
+# http://sws.geonames.org/563514
+
+gnr:563514 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:553972 ;
+	gist:name "Elista" .
+# 
+# http://sws.geonames.org/567293
+
+gnr:567293 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Dagestan" .
+# 
+# http://sws.geonames.org/567395
+
+gnr:567395 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Chuvashskaya Respublika" .
+# 
+# http://sws.geonames.org/569154
+
+gnr:569154 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:552927 ;
+	gist:name "Cherkessk" .
+# 
+# http://sws.geonames.org/569665
+
+gnr:569665 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Chechenskaya Respublika" .
+# 
+# http://sws.geonames.org/569696
+
+gnr:569696 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:567395 ;
+	gist:name "Cheboksary" .
+# 
+# http://sws.geonames.org/571473
+
+gnr:571473 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Bryanskaya Oblast'" .
+# 
+# http://sws.geonames.org/571476
+
+gnr:571476 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:571473 ;
+	gist:name "Bryansk" .
+# 
+# http://sws.geonames.org/578071
+
+gnr:578071 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Belgorodskaya Oblast'" .
+# 
+# http://sws.geonames.org/578072
+
+gnr:578072 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:578071 ;
+	gist:name "Belgorod" .
+# 
+# http://sws.geonames.org/578853
+
+gnr:578853 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Bashkortostan" .
+# 
+# http://sws.geonames.org/580491
+
+gnr:580491 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Astrakhanskaya Oblast'" .
+# 
+# http://sws.geonames.org/580497
+
+gnr:580497 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:580491 ;
+	gist:name "Astrakhan" .
+# 
+# http://sws.geonames.org/581043
+
+gnr:581043 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Arkhangel'skaya Oblast'" .
+# 
+# http://sws.geonames.org/581049
+
+gnr:581049 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:581043 ;
+	gist:name "Arkhangel'sk" .
+# 
+# http://sws.geonames.org/584222
+
+gnr:584222 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Respublika Adygeya" .
+# 
+# http://sws.geonames.org/6313621
+
+gnr:6313621 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:556349 ;
+	gist:name "Magas" .
+# 
+# http://sws.geonames.org/7779061
+
+gnr:7779061 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Zabaykal'skiy Kray" .
+# 
+# http://sws.geonames.org/826294
+
+gnr:826294 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM1 ;
+	gist:geoDirectlyContainedIn gnr:2017370 ;
+	gist:name "Vladimirskaya Oblast'" .
+# 
+# http://sws.geonames.org/8505053
+
+gnr:8505053 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_populatedPlace , gn:P.PPLA ;
+	gist:geoDirectlyContainedIn gnr:524925 ;
+	gist:name "Vostochnoe Degunino" .
+# 
+# Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi

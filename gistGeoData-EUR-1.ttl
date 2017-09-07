@@ -1,0 +1,590 @@
+@prefix : <http://ontologies.semanticarts.com/o/gistgeodata-EUR-1#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix gnr: <http://sws.geonames.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix gist: <http://ontologies.semanticarts.com/gist#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix gistgeo: <http://ontologies.semanticarts.com/gistGeo#> .
+@prefix gistgeo3: <http://triples.semanticarts.com/gistGeo#> .
+
+<http://ontologies.semanticarts.com/o/gistgeodata-EUR-1> a owl:Ontology ;
+	owl:versionIRI <http://ontologies.semanticarts.com/o/gistgeodata-EUR-1> ;
+	owl:imports <http://ontologies.semanticarts.com/o/gistGeoCore0.1> ;
+	rdfs:comment "Contains geographical data about Europe at the Country level. (GeoNames code A.PCLI)" .
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://ontologies.semanticarts.com/gistGeo#EuropeanCountry
+
+gistgeo:EuropeanCountry a owl:Class ;
+	rdfs:subClassOf gistgeo:GeopoliticalRegion .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://sws.geonames.org/146669
+
+gnr:146669 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_SoutheasternEurope , gistgeo3:_SouthernEurope ;
+	gist:name "Cyprus" ;
+	gistgeo:formalName "Republic of Cyprus" ;
+	gistgeo:iso3166Code "CY" ;
+	gistgeo:iso3166Number "196"^^xsd:integer .
+# 
+# http://sws.geonames.org/2017370
+
+gnr:2017370 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_CentralAsia , gistgeo3:_EasternEurope ;
+	gist:name "Russia" ;
+	gistgeo:formalName "Russian Federation" ;
+	gistgeo:iso3166Code "RU" ;
+	gistgeo:iso3166Number "643"^^xsd:integer .
+# 
+# http://sws.geonames.org/2264397
+
+gnr:2264397 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_Iberia , gistgeo3:_SouthernEurope , gistgeo3:_WesternEurope ;
+	gist:name "Portugal" ;
+	gistgeo:formalName "Portuguese Republic" ;
+	gistgeo:iso3166Code "PT" ;
+	gistgeo:iso3166Number "620"^^xsd:integer .
+# 
+# http://sws.geonames.org/2411586
+
+gnr:2411586 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_SouthernEurope , gistgeo3:_WesternEurope ;
+	gist:governedBy gnr:2635167 .
+
+gnr:2635167 a owl:NamedIndividual .
+
+gnr:2411586 gistgeo:geoPartOf gistgeo3:_UnitedKingdomOverseasTerritories ;
+	gist:name "Gibraltar" ;
+	gistgeo:iso3166Code "GI" ;
+	gistgeo:iso3166Number "292"^^xsd:integer .
+# 
+# http://sws.geonames.org/2510769
+
+gnr:2510769 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_Iberia , gistgeo3:_SouthernEurope , gistgeo3:_WesternEurope ;
+	gist:name "Spain" ;
+	gistgeo:formalName "Kingdom of Spain" ;
+	gistgeo:iso3166Code "ES" ;
+	gistgeo:iso3166Number "724"^^xsd:integer .
+# 
+# http://sws.geonames.org/2562770
+
+gnr:2562770 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_SouthernEurope , gistgeo3:_WesternEurope ;
+	gist:name "Malta" ;
+	gistgeo:formalName "Republic of Malta" ;
+	gistgeo:iso3166Code "MT" ;
+	gistgeo:iso3166Number "470"^^xsd:integer .
+# 
+# http://sws.geonames.org/2622320
+
+gnr:2622320 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_NordicCountries , gistgeo3:_NorthAtlanticOcean , gistgeo3:_NorthernEurope , gistgeo3:_WesternEurope ;
+	gist:governedBy gnr:2623032 .
+
+gnr:2623032 a owl:NamedIndividual .
+
+gnr:2622320 gistgeo:geoPartOf gistgeo3:_DanishOverseasTerritories ;
+	gist:name "Faroe Islands (the)" ;
+	gistgeo:iso3166Code "FO" ;
+	gistgeo:iso3166Number "234"^^xsd:integer .
+# 
+# http://sws.geonames.org/2623032
+
+gnr:2623032 a gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_NordicCountries , gistgeo3:_NorthernEurope , gistgeo3:_Scandinavia , gistgeo3:_WesternEurope ;
+	gist:name "Denmark" ;
+	gistgeo:formalName "Kingdom of Denmark" ;
+	gistgeo:iso3166Code "DK" ;
+	gistgeo:iso3166Number "208"^^xsd:integer .
+# 
+# http://sws.geonames.org/2629691
+
+gnr:2629691 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_NordicCountries , gistgeo3:_NorthernEurope , gistgeo3:_WesternEurope ;
+	gist:name "Iceland" ;
+	gistgeo:formalName "Republic of Iceland" ;
+	gistgeo:iso3166Code "IS" ;
+	gistgeo:iso3166Number "352"^^xsd:integer .
+# 
+# http://sws.geonames.org/2635167
+
+gnr:2635167 a gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_NorthernEurope , gistgeo3:_WesternEurope ;
+	gist:name "United Kingdom" ;
+	gistgeo:formalName "United Kingdom of Great Britain and Northern Ireland" ;
+	gistgeo:iso3166Code "GB" ;
+	gistgeo:iso3166Number "826"^^xsd:integer .
+# 
+# http://sws.geonames.org/2658434
+
+gnr:2658434 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_CentralEurope , gistgeo3:_WesternEurope ;
+	gist:name "Switzerland" ;
+	gistgeo:formalName "Swiss Confederation" ;
+	gistgeo:iso3166Code "CH" ;
+	gistgeo:iso3166Number "756"^^xsd:integer .
+# 
+# http://sws.geonames.org/2661886
+
+gnr:2661886 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_NordicCountries , gistgeo3:_NorthernEurope , gistgeo3:_Scandinavia , gistgeo3:_WesternEurope ;
+	gist:name "Sweden" ;
+	gistgeo:formalName "Kingdom of Sweden" ;
+	gistgeo:iso3166Code "SE" ;
+	gistgeo:iso3166Number "752"^^xsd:integer .
+# 
+# http://sws.geonames.org/2750405
+
+gnr:2750405 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_NorthernEurope , gistgeo3:_WesternEurope ;
+	gist:name "Netherlands" ;
+	gistgeo:formalName "Kingdom of the Netherlands" ;
+	gistgeo:iso3166Code "NL" ;
+	gistgeo:iso3166Number "528"^^xsd:integer .
+# 
+# http://sws.geonames.org/2782113
+
+gnr:2782113 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_CentralEurope , gistgeo3:_WesternEurope ;
+	gist:name "Austria" ;
+	gistgeo:formalName "Republic of Austria" ;
+	gistgeo:iso3166Code "AT" ;
+	gistgeo:iso3166Number "40"^^xsd:integer .
+# 
+# http://sws.geonames.org/2802361
+
+gnr:2802361 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_NorthernEurope , gistgeo3:_WesternEurope ;
+	gist:name "Belgium" ;
+	gistgeo:formalName "Kingdom of Belgium" ;
+	gistgeo:iso3166Code "BE" ;
+	gistgeo:iso3166Number "56"^^xsd:integer .
+# 
+# http://sws.geonames.org/2921044
+
+gnr:2921044 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_NorthernEurope , gistgeo3:_WesternEurope ;
+	gist:name "Germany" ;
+	gistgeo:formalName "Federal Republic of Germany" ;
+	gistgeo:iso3166Code "DE" ;
+	gistgeo:iso3166Number "276"^^xsd:integer .
+# 
+# http://sws.geonames.org/2960313
+
+gnr:2960313 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_NorthernEurope , gistgeo3:_WesternEurope ;
+	gist:name "Luxembourg" ;
+	gistgeo:formalName "Grand Duchy of Luxembourg" ;
+	gistgeo:iso3166Code "LU" ;
+	gistgeo:iso3166Number "442"^^xsd:integer .
+# 
+# http://sws.geonames.org/2963597
+
+gnr:2963597 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_NorthernEurope , gistgeo3:_WesternEurope ;
+	gist:name "Ireland" ;
+	gistgeo:formalName "Ireland" ;
+	gistgeo:iso3166Code "IE" ;
+	gistgeo:iso3166Number "372"^^xsd:integer .
+# 
+# http://sws.geonames.org/298795
+
+gnr:298795 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_MiddleEast , gistgeo3:_SoutheasternEurope ;
+	gist:name "Turkey" ;
+	gistgeo:formalName "Republic of Turkey" ;
+	gistgeo:iso3166Code "TR" ;
+	gistgeo:iso3166Number "792"^^xsd:integer .
+# 
+# http://sws.geonames.org/2993457
+
+gnr:2993457 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_SouthernEurope , gistgeo3:_WesternEurope ;
+	gist:name "Monaco" ;
+	gistgeo:formalName "Principality of Monaco" ;
+	gistgeo:iso3166Code "MC" ;
+	gistgeo:iso3166Number "492"^^xsd:integer .
+# 
+# http://sws.geonames.org/3017382
+
+gnr:3017382 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_NorthernEurope , gistgeo3:_SouthernEurope , gistgeo3:_WesternEurope ;
+	gist:name "France" ;
+	gistgeo:formalName "French Republic" ;
+	gistgeo:iso3166Code "FR" ;
+	gistgeo:iso3166Number "250"^^xsd:integer .
+# 
+# http://sws.geonames.org/3041565
+
+gnr:3041565 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_Iberia , gistgeo3:_SouthernEurope ;
+	gist:name "Andorra" ;
+	gistgeo:formalName "Principality of Andorra" ;
+	gistgeo:iso3166Code "AD" ;
+	gistgeo:iso3166Number "20"^^xsd:integer .
+# 
+# http://sws.geonames.org/3042058
+
+gnr:3042058 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_NorthernEurope , gistgeo3:_WesternEurope ;
+	gist:name "Liechtenstein" ;
+	gistgeo:formalName "Principality of Liechtenstein" ;
+	gistgeo:iso3166Code "LI" ;
+	gistgeo:iso3166Number "438"^^xsd:integer .
+# 
+# http://sws.geonames.org/3042142
+
+gnr:3042142 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCL ;
+	gist:geoDirectlyContainedIn gistgeo3:_WesternEurope ;
+	gist:governedBy gnr:2635167 ;
+	gistgeo:geoPartOf gistgeo3:_UnitedKingdomOverseasTerritories ;
+	gist:name "Jersey" ;
+	gistgeo:iso3166Code "JE" ;
+	gistgeo:iso3166Number "832"^^xsd:integer .
+# 
+# http://sws.geonames.org/3042225
+
+gnr:3042225 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCL ;
+	gist:governedBy gnr:2635167 ;
+	gist:name "Isle of Man" ;
+	gistgeo:iso3166Code "IM" ;
+	gistgeo:iso3166Number "833"^^xsd:integer .
+# 
+# http://sws.geonames.org/3042362
+
+gnr:3042362 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCL ;
+	gist:geoDirectlyContainedIn gistgeo3:_WesternEurope ;
+	gist:governedBy gnr:2635167 ;
+	gistgeo:geoPartOf gistgeo3:_UnitedKingdomOverseasTerritories ;
+	gist:name "Guernsey" ;
+	gistgeo:iso3166Code "GG" ;
+	gistgeo:iso3166Number "831"^^xsd:integer .
+# 
+# http://sws.geonames.org/3057568
+
+gnr:3057568 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_CentralEurope , gistgeo3:_EasternEurope ;
+	gist:name "Slovakia" ;
+	gistgeo:formalName "Slovak Republic" ;
+	gistgeo:iso3166Code "SK" ;
+	gistgeo:iso3166Number "703"^^xsd:integer .
+# 
+# http://sws.geonames.org/3077311
+
+gnr:3077311 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_CentralEurope , gistgeo3:_EasternEurope ;
+	gist:name "Czech Republic" ;
+	gistgeo:formalName "Czech Republic" ;
+	gistgeo:iso3166Code "CZ" ;
+	gistgeo:iso3166Number "203"^^xsd:integer .
+# 
+# http://sws.geonames.org/3144096
+
+gnr:3144096 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_NordicCountries , gistgeo3:_NorthernEurope , gistgeo3:_Scandinavia , gistgeo3:_WesternEurope ;
+	gist:name "Norway" ;
+	gistgeo:formalName "Kingdom of Norway" ;
+	gistgeo:iso3166Code "NO" ;
+	gistgeo:iso3166Number "578"^^xsd:integer .
+# 
+# http://sws.geonames.org/3164670
+
+gnr:3164670 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_SouthernEurope ;
+	gist:name "Holy See" ;
+	gistgeo:formalName "Holy See" ;
+	gistgeo:iso3166Code "VA" ;
+	gistgeo:iso3166Number "336"^^xsd:integer .
+# 
+# http://sws.geonames.org/3168068
+
+gnr:3168068 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_SouthernEurope , gistgeo3:_WesternEurope ;
+	gist:name "San Marino" ;
+	gistgeo:formalName "Republic of San Marino" ;
+	gistgeo:iso3166Code "SM" ;
+	gistgeo:iso3166Number "674"^^xsd:integer .
+# 
+# http://sws.geonames.org/3175395
+
+gnr:3175395 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_SouthernEurope , gistgeo3:_WesternEurope ;
+	gist:name "Italy" ;
+	gistgeo:formalName "Italian Republic" ;
+	gistgeo:iso3166Code "IT" ;
+	gistgeo:iso3166Number "380"^^xsd:integer .
+# 
+# http://sws.geonames.org/3190538
+
+gnr:3190538 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_EasternEurope , gistgeo3:_SoutheasternEurope ;
+	gist:name "Slovenia" ;
+	gistgeo:formalName "Republic of Slovenia" ;
+	gistgeo:iso3166Code "SI" ;
+	gistgeo:iso3166Number "705"^^xsd:integer .
+# 
+# http://sws.geonames.org/3194884
+
+gnr:3194884 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_Balkans , gistgeo3:_EasternEurope , gistgeo3:_SoutheasternEurope ;
+	gist:name "Montenegro" ;
+	gistgeo:formalName "Montenegro" ;
+	gistgeo:iso3166Code "ME" ;
+	gistgeo:iso3166Number "499"^^xsd:integer .
+# 
+# http://sws.geonames.org/3202326
+
+gnr:3202326 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_Balkans , gistgeo3:_SoutheasternEurope ;
+	gist:name "Croatia" ;
+	gistgeo:formalName "Republic of Croatia" ;
+	gistgeo:iso3166Code "HR" ;
+	gistgeo:iso3166Number "191"^^xsd:integer .
+# 
+# http://sws.geonames.org/3277605
+
+gnr:3277605 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_Balkans , gistgeo3:_SoutheasternEurope ;
+	gist:name "Bosnia and Herzegovina" ;
+	gistgeo:formalName "Bosnia and Herzegovina" ;
+	gistgeo:iso3166Code "BA" ;
+	gistgeo:iso3166Number "70"^^xsd:integer .
+# 
+# http://sws.geonames.org/3425505
+
+gnr:3425505 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_NorthAtlanticOcean ;
+	gist:governedBy gnr:2623032 ;
+	gistgeo:geoPartOf gistgeo3:_DanishOverseasTerritories ;
+	gist:name "Greenland" ;
+	gistgeo:iso3166Code "GL" ;
+	gistgeo:iso3166Number "304"^^xsd:integer .
+# 
+# http://sws.geonames.org/390903
+
+gnr:390903 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_Balkans , gistgeo3:_SoutheasternEurope , gistgeo3:_SouthernEurope , gistgeo3:_WesternEurope ;
+	gist:name "Greece" ;
+	gistgeo:formalName "Hellenic Republic" ;
+	gistgeo:iso3166Code "GR" ;
+	gistgeo:iso3166Number "300"^^xsd:integer .
+# 
+# http://sws.geonames.org/453733
+
+gnr:453733 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_Baltics , gistgeo3:_EasternEurope , gistgeo3:_NorthernEurope ;
+	gist:name "Estonia" ;
+	gistgeo:formalName "Republic of Estonia" ;
+	gistgeo:iso3166Code "EE" ;
+	gistgeo:iso3166Number "233"^^xsd:integer .
+# 
+# http://sws.geonames.org/458258
+
+gnr:458258 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_Baltics , gistgeo3:_EasternEurope , gistgeo3:_NorthernEurope ;
+	gist:name "Latvia" ;
+	gistgeo:formalName "Republic of Latvia" ;
+	gistgeo:iso3166Code "LV" ;
+	gistgeo:iso3166Number "428"^^xsd:integer .
+# 
+# http://sws.geonames.org/597427
+
+gnr:597427 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_Baltics , gistgeo3:_EasternEurope , gistgeo3:_NorthernEurope ;
+	gist:name "Lithuania" ;
+	gistgeo:formalName "Republic of Lithuania" ;
+	gistgeo:iso3166Code "LT" ;
+	gistgeo:iso3166Number "440"^^xsd:integer .
+# 
+# http://sws.geonames.org/607072
+
+gnr:607072 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.TERR ;
+	gist:geoDirectlyContainedIn gistgeo3:_NordicCountries , gistgeo3:_NorthernEurope ;
+	gist:governedBy gnr:3144096 ;
+	gist:name "Svalbard and Jan Mayen" ;
+	gistgeo:iso3166Code "SJ" ;
+	gistgeo:iso3166Number "744"^^xsd:integer .
+# 
+# http://sws.geonames.org/617790
+
+gnr:617790 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_EasternEurope , gistgeo3:_SoutheasternEurope ;
+	gist:name "Moldova" ;
+	gistgeo:formalName "Republic of Moldova" ;
+	gistgeo:iso3166Code "MD" ;
+	gistgeo:iso3166Number "498"^^xsd:integer .
+# 
+# http://sws.geonames.org/6290252
+
+gnr:6290252 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_Balkans , gistgeo3:_SoutheasternEurope ;
+	gist:name "Serbia" ;
+	gistgeo:formalName "Republic of Serbia" ;
+	gistgeo:iso3166Code "RS" ;
+	gistgeo:iso3166Number "688"^^xsd:integer .
+# 
+# http://sws.geonames.org/630336
+
+gnr:630336 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_EasternEurope ;
+	gist:name "Belarus" ;
+	gistgeo:formalName "Republic of Belarus" ;
+	gistgeo:iso3166Code "BY" ;
+	gistgeo:iso3166Number "112"^^xsd:integer .
+# 
+# http://sws.geonames.org/660013
+
+gnr:660013 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_NordicCountries , gistgeo3:_NorthernEurope , gistgeo3:_WesternEurope ;
+	gist:name "Finland" ;
+	gistgeo:formalName "Republic of Finland" ;
+	gistgeo:iso3166Code "FI" ;
+	gistgeo:iso3166Number "246"^^xsd:integer .
+# 
+# http://sws.geonames.org/661882
+
+gnr:661882 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_dependency , gn:A.PCLD ;
+	gist:geoDirectlyContainedIn gistgeo3:_NordicCountries , gistgeo3:_NorthernEurope ;
+	gist:governedBy gnr:660013 ;
+	gist:name "Aland Islands" ;
+	gistgeo:iso3166Code "AX" ;
+	gistgeo:iso3166Number "248"^^xsd:integer .
+# 
+# http://sws.geonames.org/690791
+
+gnr:690791 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_EasternEurope ;
+	gist:name "Ukraine" ;
+	gistgeo:formalName "Ukraine" ;
+	gistgeo:iso3166Code "UA" ;
+	gistgeo:iso3166Number "804"^^xsd:integer .
+# 
+# http://sws.geonames.org/718075
+
+gnr:718075 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_Balkans , gistgeo3:_SoutheasternEurope ;
+	gist:name "Macedonia" ;
+	gistgeo:formalName "Republic of Macedonia" ;
+	gistgeo:iso3166Code "MK" ;
+	gistgeo:iso3166Number "807"^^xsd:integer .
+# 
+# http://sws.geonames.org/719819
+
+gnr:719819 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_CentralEurope , gistgeo3:_EasternEurope ;
+	gist:name "Hungary" ;
+	gistgeo:formalName "Hungary" ;
+	gistgeo:iso3166Code "HU" ;
+	gistgeo:iso3166Number "348"^^xsd:integer .
+# 
+# http://sws.geonames.org/732800
+
+gnr:732800 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_Balkans , gistgeo3:_SoutheasternEurope ;
+	gist:name "Bulgaria" ;
+	gistgeo:formalName "Republic of Bulgaria" ;
+	gistgeo:iso3166Code "BG" ;
+	gistgeo:iso3166Number "100"^^xsd:integer .
+# 
+# http://sws.geonames.org/783754
+
+gnr:783754 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_Balkans , gistgeo3:_SoutheasternEurope ;
+	gist:name "Albania" ;
+	gistgeo:formalName "Republic of Albania" ;
+	gistgeo:iso3166Code "AL" ;
+	gistgeo:iso3166Number "8"^^xsd:integer .
+# 
+# http://sws.geonames.org/798544
+
+gnr:798544 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_CentralEurope , gistgeo3:_EasternEurope , gistgeo3:_NorthernEurope ;
+	gist:name "Poland" ;
+	gistgeo:formalName "Republic of Poland" ;
+	gistgeo:iso3166Code "PL" ;
+	gistgeo:iso3166Number "616"^^xsd:integer .
+# 
+# http://sws.geonames.org/798549
+
+gnr:798549 a owl:NamedIndividual , gistgeo:EuropeanCountry , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_country , gn:A.PCLI ;
+	gist:geoDirectlyContainedIn gistgeo3:_EasternEurope , gistgeo3:_SoutheasternEurope ;
+	gist:name "Romania" ;
+	gistgeo:formalName "Romania" ;
+	gistgeo:iso3166Code "RO" ;
+	gistgeo:iso3166Number "642"^^xsd:integer .
+# 
+# Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi

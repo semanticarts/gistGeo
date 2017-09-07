@@ -1,0 +1,957 @@
+@prefix : <http://ontologies.semanticarts.com/o/gistgeodata-CA-2#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix gnr: <http://sws.geonames.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix gist: <http://ontologies.semanticarts.com/gist#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix gistgeo: <http://ontologies.semanticarts.com/gistGeo#> .
+@prefix gistgeo3: <http://triples.semanticarts.com/gistGeo#> .
+
+<http://ontologies.semanticarts.com/gistgeodata-CA-2> a owl:Ontology ;
+	owl:versionIRI <http://ontologies.semanticarts.com/gistgeodata-CA-2> ;
+	owl:imports <http://ontologies.semanticarts.com/o/gistgeodata-CA-1> , <http://ontologies.semanticarts.com/o/gistGeoCore0.1> ;
+	rdfs:comment "Contains geographical data about Canada at the county (and equivalent) level." .
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://sws.geonames.org/5881941
+
+gnr:5881941 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6115047 ;
+	gist:name "Abitibi-Temiscamingue" .
+# 
+# http://sws.geonames.org/5883098
+
+gnr:5883098 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6087430 ;
+	gist:name "Albert County" .
+# 
+# http://sws.geonames.org/5883638
+
+gnr:5883638 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Algoma" .
+# 
+# http://sws.geonames.org/5885415
+
+gnr:5885415 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6091530 ;
+	gist:name "Annapolis County" .
+# 
+# http://sws.geonames.org/5886183
+
+gnr:5886183 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6091530 ;
+	gist:name "Antigonish County" .
+# 
+# http://sws.geonames.org/5907982
+
+gnr:5907982 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Brant" .
+# 
+# http://sws.geonames.org/5910071
+
+gnr:5910071 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Bruce County" .
+# 
+# http://sws.geonames.org/5915565
+
+gnr:5915565 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6091530 ;
+	gist:name "Cape Breton County" .
+# 
+# http://sws.geonames.org/5916420
+
+gnr:5916420 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Capital Regional District" .
+# 
+# http://sws.geonames.org/5916918
+
+gnr:5916918 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Cariboo Regional District" .
+# 
+# http://sws.geonames.org/5917147
+
+gnr:5917147 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6087430 ;
+	gist:name "Carleton County" .
+# 
+# http://sws.geonames.org/5919023
+
+gnr:5919023 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Central Coast Regional District" .
+# 
+# http://sws.geonames.org/5920264
+
+gnr:5920264 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6087430 ;
+	gist:name "Charlotte County" .
+# 
+# http://sws.geonames.org/5920450
+
+gnr:5920450 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Chatham-Kent" .
+# 
+# http://sws.geonames.org/5924616
+
+gnr:5924616 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Cochrane District" .
+# 
+# http://sws.geonames.org/5924982
+
+gnr:5924982 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6091530 ;
+	gist:name "Colchester" .
+# 
+# http://sws.geonames.org/5926222
+
+gnr:5926222 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Columbia-Shuswap Regional District" .
+# 
+# http://sws.geonames.org/5928473
+
+gnr:5928473 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6115047 ;
+	gist:name "Cote-Nord" .
+# 
+# http://sws.geonames.org/5931136
+
+gnr:5931136 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Cowichan Valley Regional District" .
+# 
+# http://sws.geonames.org/5933880
+
+gnr:5933880 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6091530 ;
+	gist:name "Cumberland County" .
+# 
+# http://sws.geonames.org/5939237
+
+gnr:5939237 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6091530 ;
+	gist:name "Digby County" .
+# 
+# http://sws.geonames.org/5943542
+
+gnr:5943542 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Dufferin County" .
+# 
+# http://sws.geonames.org/5944369
+
+gnr:5944369 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Durham" .
+# 
+# http://sws.geonames.org/5947587
+
+gnr:5947587 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Elgin County" .
+# 
+# http://sws.geonames.org/5949533
+
+gnr:5949533 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Essex County" .
+# 
+# http://sws.geonames.org/5949621
+
+gnr:5949621 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6115047 ;
+	gist:name "Estrie" .
+# 
+# http://sws.geonames.org/5957659
+
+gnr:5957659 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Fraser Valley Regional District" .
+# 
+# http://sws.geonames.org/5958506
+
+gnr:5958506 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Frontenac County" .
+# 
+# http://sws.geonames.org/5965814
+
+gnr:5965814 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Greater Vancouver Regional District" .
+# 
+# http://sws.geonames.org/5966925
+
+gnr:5966925 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Grey County" .
+# 
+# http://sws.geonames.org/5968620
+
+gnr:5968620 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6091530 ;
+	gist:name "Guysborough County" .
+# 
+# http://sws.geonames.org/5969093
+
+gnr:5969093 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Haldimand County" .
+# 
+# http://sws.geonames.org/5969392
+
+gnr:5969392 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Haliburton County" .
+# 
+# http://sws.geonames.org/5969424
+
+gnr:5969424 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6091530 ;
+	gist:name "Halifax County" .
+# 
+# http://sws.geonames.org/5969719
+
+gnr:5969719 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Halton" .
+# 
+# http://sws.geonames.org/5969784
+
+gnr:5969784 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Hamilton" .
+# 
+# http://sws.geonames.org/5971841
+
+gnr:5971841 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Hastings County" .
+# 
+# http://sws.geonames.org/5978829
+
+gnr:5978829 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Huron County" .
+# 
+# http://sws.geonames.org/5983629
+
+gnr:5983629 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6091530 ;
+	gist:name "Inverness County" .
+# 
+# http://sws.geonames.org/5989818
+
+gnr:5989818 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Kawartha Lakes" .
+# 
+# http://sws.geonames.org/5991054
+
+gnr:5991054 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Kenora District" .
+# 
+# http://sws.geonames.org/5991094
+
+gnr:5991094 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6087430 ;
+	gist:name "Kent County" .
+# 
+# http://sws.geonames.org/5992375
+
+gnr:5992375 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6113358 ;
+	gist:name "Kings County" .
+# 
+# http://sws.geonames.org/5992377
+
+gnr:5992377 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6091530 ;
+	gist:name "Kings County" .
+# 
+# http://sws.geonames.org/5992378
+
+gnr:5992378 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6087430 ;
+	gist:name "Kings County" .
+# 
+# http://sws.geonames.org/6049019
+
+gnr:6049019 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Lambton County" .
+# 
+# http://sws.geonames.org/6049130
+
+gnr:6049130 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Lanark County" .
+# 
+# http://sws.geonames.org/6049141
+
+gnr:6049141 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6115047 ;
+	gist:name "Lanaudiere" .
+# 
+# http://sws.geonames.org/6050541
+
+gnr:6050541 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6115047 ;
+	gist:name "Laurentides" .
+# 
+# http://sws.geonames.org/6050612
+
+gnr:6050612 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6115047 ;
+	gist:name "Laval" .
+# 
+# http://sws.geonames.org/6052311
+
+gnr:6052311 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Lennox and Addington County" .
+# 
+# http://sws.geonames.org/6062070
+
+gnr:6062070 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6091530 ;
+	gist:name "Lunenburg County" .
+# 
+# http://sws.geonames.org/6065217
+
+gnr:6065217 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Manitoulin District" .
+# 
+# http://sws.geonames.org/6068167
+
+gnr:6068167 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6115047 ;
+	gist:name "Mauricie" .
+# 
+# http://sws.geonames.org/6073256
+
+gnr:6073256 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Middlesex County" .
+# 
+# http://sws.geonames.org/6074643
+
+gnr:6074643 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6115047 ;
+	gist:name "Minganie" .
+# 
+# http://sws.geonames.org/6076966
+
+gnr:6076966 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6115047 ;
+	gist:name "Monteregie" .
+# 
+# http://sws.geonames.org/6077246
+
+gnr:6077246 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6115047 ;
+	gist:name "Montreal" .
+# 
+# http://sws.geonames.org/6084939
+
+gnr:6084939 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "District Municipality of Muskoka" .
+# 
+# http://sws.geonames.org/6087883
+
+gnr:6087883 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Regional Municipality of Niagara" .
+# 
+# http://sws.geonames.org/6088501
+
+gnr:6088501 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Nipissing District" .
+# 
+# http://sws.geonames.org/6090771
+
+gnr:6090771 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6087430 ;
+	gist:name "Northumberland County" .
+# 
+# http://sws.geonames.org/6090772
+
+gnr:6090772 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Northumberland County" .
+# 
+# http://sws.geonames.org/6095306
+
+gnr:6095306 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6115047 ;
+	gist:name "Outaouais" .
+# 
+# http://sws.geonames.org/6095780
+
+gnr:6095780 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Oxford County" .
+# 
+# http://sws.geonames.org/6098746
+
+gnr:6098746 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Parry Sound District" .
+# 
+# http://sws.geonames.org/6100076
+
+gnr:6100076 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Peace River Regional District" .
+# 
+# http://sws.geonames.org/6100475
+
+gnr:6100475 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Peel" .
+# 
+# http://sws.geonames.org/6101545
+
+gnr:6101545 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Perth County" .
+# 
+# http://sws.geonames.org/6101646
+
+gnr:6101646 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Peterborough County" .
+# 
+# http://sws.geonames.org/6104222
+
+gnr:6104222 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6091530 ;
+	gist:name "Pictou County" .
+# 
+# http://sws.geonames.org/6111530
+
+gnr:6111530 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6065171 ;
+	gist:name "Rural Municipality of Portage la Prairie" .
+# 
+# http://sws.geonames.org/6112609
+
+gnr:6112609 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Powell River Regional District" .
+# 
+# http://sws.geonames.org/6113329
+
+gnr:6113329 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6113358 ;
+	gist:name "Prince County" .
+# 
+# http://sws.geonames.org/6113354
+
+gnr:6113354 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Prince Edward County" .
+# 
+# http://sws.geonames.org/6115098
+
+gnr:6115098 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6113358 ;
+	gist:name "Queens County" .
+# 
+# http://sws.geonames.org/6115099
+
+gnr:6115099 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6091530 ;
+	gist:name "Queens County" .
+# 
+# http://sws.geonames.org/6115101
+
+gnr:6115101 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6087430 ;
+	gist:name "Queens County" .
+# 
+# http://sws.geonames.org/6116135
+
+gnr:6116135 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Rainy River District" .
+# 
+# http://sws.geonames.org/6119125
+
+gnr:6119125 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Regional District of Alberni-Clayoquot" .
+# 
+# http://sws.geonames.org/6119126
+
+gnr:6119126 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Regional District of Bulkley-Nechako" .
+# 
+# http://sws.geonames.org/6119127
+
+gnr:6119127 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Regional District of Central Kootenay" .
+# 
+# http://sws.geonames.org/6119128
+
+gnr:6119128 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Regional District of Central Okanagan" .
+# 
+# http://sws.geonames.org/6119130
+
+gnr:6119130 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Regional District of East Kootenay" .
+# 
+# http://sws.geonames.org/6119131
+
+gnr:6119131 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Regional District of Fraser-Fort George" .
+# 
+# http://sws.geonames.org/6119132
+
+gnr:6119132 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Regional District of Kitimat-Stikine" .
+# 
+# http://sws.geonames.org/6119133
+
+gnr:6119133 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Regional District of Kootenay-Boundary" .
+# 
+# http://sws.geonames.org/6119134
+
+gnr:6119134 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Regional District of Mount Waddington" .
+# 
+# http://sws.geonames.org/6119135
+
+gnr:6119135 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Regional District of Nanaimo" .
+# 
+# http://sws.geonames.org/6119136
+
+gnr:6119136 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Regional District of North Okanagan" .
+# 
+# http://sws.geonames.org/6119137
+
+gnr:6119137 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Regional District of Okanagan-Similkameen" .
+# 
+# http://sws.geonames.org/6119449
+
+gnr:6119449 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Renfrew County" .
+# 
+# http://sws.geonames.org/6122075
+
+gnr:6122075 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6091530 ;
+	gist:name "Richmond County" .
+# 
+# http://sws.geonames.org/6137271
+
+gnr:6137271 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6115047 ;
+	gist:name "Saguenay/Lac-Saint-Jean" .
+# 
+# http://sws.geonames.org/6138518
+
+gnr:6138518 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6087430 ;
+	gist:name "Saint John County" .
+# 
+# http://sws.geonames.org/6145888
+
+gnr:6145888 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6091530 ;
+	gist:name "Shelburne County" .
+# 
+# http://sws.geonames.org/6147963
+
+gnr:6147963 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Simcoe County" .
+# 
+# http://sws.geonames.org/6148773
+
+gnr:6148773 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Skeena-Queen Charlotte Regional District" .
+# 
+# http://sws.geonames.org/6154640
+
+gnr:6154640 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Squamish-Lillooet Regional District" .
+# 
+# http://sws.geonames.org/6158840
+
+gnr:6158840 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Sudbury" .
+# 
+# http://sws.geonames.org/6158841
+
+gnr:6158841 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Sudbury" .
+# 
+# http://sws.geonames.org/6159368
+
+gnr:6159368 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6087430 ;
+	gist:name "Sunbury County" .
+# 
+# http://sws.geonames.org/6159746
+
+gnr:6159746 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Sunshine Coast Regional District" .
+# 
+# http://sws.geonames.org/6165501
+
+gnr:6165501 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Thompson-Nicola Regional District" .
+# 
+# http://sws.geonames.org/6166139
+
+gnr:6166139 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Thunder Bay District" .
+# 
+# http://sws.geonames.org/6166724
+
+gnr:6166724 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Timiskaming District" .
+# 
+# http://sws.geonames.org/6172001
+
+gnr:6172001 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "United Counties of Leeds and Grenville" .
+# 
+# http://sws.geonames.org/6172002
+
+gnr:6172002 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Comtes unis de Prescott et Russell" .
+# 
+# http://sws.geonames.org/6172003
+
+gnr:6172003 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "United Counties of Stormont, Dundas and Glengarry" .
+# 
+# http://sws.geonames.org/6174034
+
+gnr:6174034 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6091530 ;
+	gist:name "Victoria County" .
+# 
+# http://sws.geonames.org/6176824
+
+gnr:6176824 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Regional Municipality of Waterloo" .
+# 
+# http://sws.geonames.org/6177913
+
+gnr:6177913 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Wellington County" .
+# 
+# http://sws.geonames.org/6179219
+
+gnr:6179219 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6087430 ;
+	gist:name "Westmorland County" .
+# 
+# http://sws.geonames.org/6184011
+
+gnr:6184011 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5883102 ;
+	gist:name "Wood Buffalo" .
+# 
+# http://sws.geonames.org/6185218
+
+gnr:6185218 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6091530 ;
+	gist:name "Yarmouth County" .
+# 
+# http://sws.geonames.org/6185557
+
+gnr:6185557 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6087430 ;
+	gist:name "York County" .
+# 
+# http://sws.geonames.org/6185560
+
+gnr:6185560 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "York" .
+# 
+# http://sws.geonames.org/6691318
+
+gnr:6691318 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6115047 ;
+	gist:name "Bas-Saint-Laurent" .
+# 
+# http://sws.geonames.org/6691319
+
+gnr:6691319 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6115047 ;
+	gist:name "Capitale-Nationale" .
+# 
+# http://sws.geonames.org/6691320
+
+gnr:6691320 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6115047 ;
+	gist:name "Nord-du-Quebec" .
+# 
+# http://sws.geonames.org/6691321
+
+gnr:6691321 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6115047 ;
+	gist:name "Gaspesie-Iles-de-la-Madeleine" .
+# 
+# http://sws.geonames.org/6691322
+
+gnr:6691322 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6115047 ;
+	gist:name "Chaudiere-Appalaches" .
+# 
+# http://sws.geonames.org/6944116
+
+gnr:6944116 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6087430 ;
+	gist:name "Restigouche" .
+# 
+# http://sws.geonames.org/8133394
+
+gnr:8133394 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Toronto county" .
+# 
+# http://sws.geonames.org/8449526
+
+gnr:8449526 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6115047 ;
+	gist:name "Centre-du-Quebec" .
+# 
+# http://sws.geonames.org/8581623
+
+gnr:8581623 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6093943 ;
+	gist:name "Ottawa" .
+# 
+# http://sws.geonames.org/8593703
+
+gnr:8593703 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Comox Valley Regional District" .
+# 
+# http://sws.geonames.org/8593704
+
+gnr:8593704 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Northern Rockies Regional Municipality" .
+# 
+# http://sws.geonames.org/8593705
+
+gnr:8593705 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Stikine Region" .
+# 
+# http://sws.geonames.org/8593707
+
+gnr:8593707 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:5909050 ;
+	gist:name "Strathcona Regional District" .
+# 
+# http://sws.geonames.org/8593708
+
+gnr:8593708 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6087430 ;
+	gist:name "Gloucester County" .
+# 
+# http://sws.geonames.org/8593709
+
+gnr:8593709 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6087430 ;
+	gist:name "Madawaska County" .
+# 
+# http://sws.geonames.org/8593710
+
+gnr:8593710 a owl:NamedIndividual , gistgeo:GeopoliticalRegion ;
+	gist:categorizedBy gistgeo3:_subregion , gn:A.ADM2 ;
+	gist:geoDirectlyContainedIn gnr:6087430 ;
+	gist:name "Victoria County" .
+# 
+# Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi
