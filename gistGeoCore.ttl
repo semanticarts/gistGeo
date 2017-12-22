@@ -123,7 +123,7 @@ gistgeo:iso3166Code rdf:type owl:DatatypeProperty ;
                     rdfs:range xsd:string ;
                     rdfs:comment "ISO 3166 is the International Standard for country codes and codes for their subdivisions." ;
                     rdfs:isDefinedBy "http://www.iso.org/iso/country_codes" ;
-                    rdfs:label "ISO 3166 code" .
+                    rdfs:label "ISO 3166 Alpha-2 code" .
 
 
 ###  http://ontologies.semanticarts.com/gistGeo#iso3166Number
@@ -186,7 +186,7 @@ gistgeo:GeopoliticalRegion rdf:type owl:Class ;
                                                  rdf:type owl:Class
                                                ] ;
                            rdfs:subClassOf gist:GeoRegion ;
-                           rdfs:comment "A georegion defined in terms of the political jurisdiction in which it is located." ;
+                           rdfs:comment "A georegion defined in terms of the political jurisdiction(s) in which it is located." ;
                            rdfs:label "Geopolitical Region" .
 
 
